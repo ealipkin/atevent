@@ -38,9 +38,10 @@
                         <input type="submit" value="Найти" placeholder="Поиск"/>
                     </form>
                 </div> -->
-                <ul class="footer-social-btn">
-                        <li class="vk-btn-footer"><a href="#"></a></li>
-                        <li class="youtube-btn-footer"><a href="#"></a></li>
-                </ul>		
+                <div class="footer-social-btn">
+                        <a class="vk-btn-footer" href="https://vk.com/at.event" target="_blank"></a>
+                        <a class="youtube-btn-footer" href="https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA" target="_blank"></a>
+                        <a class="insta-btn-footer" href="https://instagram.com/at.event/" target="_blank"></a>
+                </div>
         </div>
 </div>

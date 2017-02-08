@@ -76,12 +76,16 @@ $(function() {
     });
 
     //POPUP
-    $('.popup-link').click(function() {
-        var popup = '.' + $(this).data('link');
-        $(popup).css('display', 'block');
+    $('.popup-link').click(function(e) {
+        e.preventDefault();
+        var $popup = $('.' + $(this).data('link'));
+        $popup.css('display', 'block');
+        $popup.find('.form-message').hide();
+        $popup.find('.button').show();
     });
 
-    $('.popup__close').click(function(){
+    $('.popup__close').click(function(e){
+        e.preventDefault();
         $(this).parent().parent().hide();
     });
 
@@ -149,12 +153,13 @@ $(function() {
         var time = timeField.attr('name') + ': ' + timeField.val();
         var type = $(form).data('type');
         var preloader = $(form).children('.form-preloader');
+        var title = 'Раздел сайта - ' + $('title').text();
 
         if (checkForm(form)) {
             $(preloader).height($(form).height());
             $(preloader).fadeIn();
             $(form).children().attr('disabled', 'disabled');
-            var dataText = getSendText(type, name, phone, time);
+            var dataText = getSendText(type, name, title, phone, time);
             $.ajax({
                 type: 'POST',
                 url: '/mail.php',
@@ -188,12 +193,13 @@ $(function() {
         var time = timeField.attr('name') + ': ' + timeField.val();
         var type = $(form).data('type');
         var preloader = $(form).children('.form-preloader');
+        var title = 'Раздел сайта - ' + $('title').text();
 
         if (checkForm(form)) {
             $(preloader).height($(form).height());
             $(preloader).fadeIn();
             $(form).children().attr('disabled', 'disabled');
-            var dataText = getSendText(type, name, phone, time);
+            var dataText = getSendText(type, name, title, phone, time);
             $.ajax({
                 type: 'POST',
                 url: '/mail.php',
@@ -223,12 +229,13 @@ $(function() {
         var text = textField.attr('name') + ': ' + textField.val();
         var type = $(form).data('type');
         var preloader = $(form).children('.form-preloader');
+        var pageTitle = 'Раздел сайта - ' + $('title').text();
 
         if (checkForm(form)) {
             $(preloader).height($(form).height());
             $(preloader).fadeIn();
             $(form).children().attr('disabled', 'disabled');
-            var dataText = getSendText(type, name, text);
+            var dataText = getSendText(type, name, text, pageTitle);
             $.ajax({
                 type: 'POST',
                 url: '/mail.php',
@@ -326,20 +333,45 @@ function getSendText() {
 //Валидация форм
 function checkForm(form) {
     var inputs = form.find('input');
+    var textarea = form.find('textarea');
+
     var check = 0;
+
     $(inputs).each(function() {
         $(this).change(function() {
             if (!$(this).val()) $(this).addClass('error');
             else $(this).removeClass('error');
         });
-        if (!$(this).val()) $(this).addClass('error');
+
+        if (!$(this).val()){
+            $(this).addClass('error');
+        }
+
         else {
             $(this).removeClass('error');
             check++;
         }
     });
-    if (parseInt(inputs.length) == check) return true;
-    else return false;
+
+    if(textarea.length > 0) {
+        $(textarea).each(function() {
+            $(this).change(function() {
+                if (!$(this).val()) $(this).addClass('error');
+                else $(this).removeClass('error');
+            });
+
+            if (!$(this).val()){
+                $(this).addClass('error');
+            }
+
+            else {
+                $(this).removeClass('error');
+                check++;
+            }
+        });
+    }
+
+    return (parseInt(inputs.length + textarea.length) == check);
 }
 //Загрузка при прокрутке
 function scrollLoader(){

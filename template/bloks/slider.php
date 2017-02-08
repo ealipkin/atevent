@@ -78,7 +78,23 @@ switch($_URLP)
 
 	case 'auto':
 		$img_path = 'auto';
-		$html = getSlider($img_path);
+
+		$links[0] = '';
+		$links[1] = '';
+		$links[2] = '';
+		$links[3] = 'popup-open';
+		$links[4] = '';
+		$links[5] = '';
+		$links[6] = 'popup-open';
+		$links[7] = '';
+		$links[8] = '';
+		$links[9] = 'popup-open';
+		$links[10] = '';
+		$links[11] = '';
+		$links[12] = '';
+		$links[13] = 'popup-open';
+
+		$html = getLinkedSlider($img_path, $links);
 	break;
 
 	case 'style_wedding':

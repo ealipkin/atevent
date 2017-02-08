@@ -237,6 +237,9 @@ a:visited {
     text-decoration: underline;
     outline: 0;
 }
+.popup-link:visited {
+    color: #ff3468;
+}
 
 a:hover {
     color: #00c08c;
@@ -804,6 +807,7 @@ body {
 .header-social-btn, .footer-social-btn {
     margin-top: 10px;
     position: relative;
+    text-align: right;
 }
 
 .header-social-btn li, .footer-social-btn li {
@@ -814,38 +818,41 @@ body {
     top: 0;
 }
 
-.header-social-btn li, .header-social-btn a, .footer-social-btn li, .footer-social-btn a {
+.header-social-btn a, .footer-social-btn a {
     height: 32px;
-    display: block;
+    width: 32px;
+    display: inline-block;
+    background-size: 100px;
 }
 
+.header-social-btn a:hover,
+.footer-social-btn a:hover {
+    opacity: 0.8;
+}
 .vk-btn-head {
-    left: 128px;
-    width: 32px;
-    background: url('../img/soc-btn-sprite.png') 0 0;
+    background: url(../img/soc-sprite.svg) -2px 0;
 }
 
 .youtube-btn-head {
-    left: 168px;
-    width: 32px;
-    background: url('../img/soc-btn-sprite.png') 32px 0;
+    background: url(../img/soc-sprite.svg) 66px 0;
 }
 
-.youtube-btn-head:hover, .vk-btn-head:hover, .youtube-btn-footer:hover, .vk-btn-footer:hover {
-    opacity: 0.8;
+.insta-btn-head {
+    background: url('../img/soc-sprite.svg') 34px 0;
 }
 
 .vk-btn-footer {
-    left: 110px;
-    width: 32px;
-    background: url('../img/soc-btn-sprite.png') 0 32px;
+    background: url(../img/soc-sprite.svg) -2px 35px;
 }
 
 .youtube-btn-footer {
-    left: 148px;
-    width: 32px;
-    background: url('../img/soc-btn-sprite.png') 32px 32px;
+    background: url('../img/soc-sprite.svg') 66px 35px;
 }
+
+.insta-btn-footer {
+    background: url('../img/soc-sprite.svg') 34px 35px;
+}
+
 
 /** Меню  **/
 .main-menu {
@@ -1298,7 +1305,8 @@ img.review-avatar {
     top: 0;
 }
 
-input.error {
+input.error,
+textarea.error {
     border: 1px solid red !important;
     color: #444 !important;
     -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2) !important;
@@ -1321,7 +1329,7 @@ input.error:-moz-placeholder {
 }
 
 .callback-form, .callback-form button {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .popup-callback .popup {

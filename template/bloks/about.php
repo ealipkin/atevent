@@ -64,7 +64,7 @@
         <li><a href="/artists">Артисты</a></li>
         <li><a href="/photographs">Фотографы и видеооператоры</a></li>
         <li><a href="/auto">Водители с личным авто</a></li>
-        <li>Реклама на сайте</li>
+        <li><a href="#" class="popup-link dashed" data-link="popup-mail">Реклама на сайте</a></li>
     </ul>
 </div>
 <hr class="acc-hr" style="margin: 0 20px 20px">

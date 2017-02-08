@@ -7,7 +7,7 @@
                     <li class="icon icon-mail"><a href="#" class="popup-link dashed" data-link="popup-mail">Написать нам</a></li>
                 </ul>                   
             </div>
-
+            <div style="display: none">test</div>
             <div class="serach-form ya-site-form ya-site-form_inited_no" onclick="return {'action':'/search','arrow':false,'bg':'transparent','fontsize':12,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск at-event','suggest':true,'target':'_self','tld':'ru','type':3,'usebigdictionary':true,'searchid':2205509,'webopt':false,'websearch':false,'input_fg':'#000000','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск','input_placeholderColor':'#cccccc','input_borderColor':'#ffffff'}">
                 <form action="http://yandex.ru/sitesearch" method="get" target="_self">
                     <input type="hidden" name="searchid" value="2205509"/>
@@ -28,14 +28,11 @@
                 <a href="tel:79823112892" class="phone-link">+7 (982) 311-28-92</a>
             </h4>
             <h6 style="text-align:right">г. Челябинск</h6>
-            <ul class="header-social-btn">
-                <li class="vk-btn-head">
-                    <a href="https://vk.com/at.event" target="_blank"></a>
-                </li>
-                <li class="youtube-btn-head">
-                    <a href="https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA" target="_blank"></a>
-                </li>
-            </ul>
+            <div class="header-social-btn">
+                    <a class="vk-btn-head" href="https://vk.com/at.event" target="_blank"></a>
+                    <a class="youtube-btn-head" href="https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA" target="_blank"></a>
+                    <a class="insta-btn-head" href="https://instagram.com/at.event/" target="_blank"></a>
+            </div>
         </div>
 </header>
 <nav class="main-menu">
