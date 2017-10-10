@@ -1,9 +1,9 @@
 <?php
 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '123');
-define('DB_NAME', 'at');
+define('DB_USER', 'ealipkin');
+define('DB_PASS', '10293847');
+define('DB_NAME', 'ealipkin');
 
 
 /*

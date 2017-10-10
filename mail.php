@@ -23,10 +23,10 @@ echo "<br />";
  
 //Тут указываем на какой ящик посылать письмо
 $to = "mail@at-event.ru";
-//$to = "evgeny2@rambler.ru";
+// $to = "evgeny2@rambler.ru";
 
 //Далее идет тема и само сообщение
-$subject = "Сообщения от пользователей";
+$subject = "Новая заявка обратной связи с сайта";
 $message = 
 "
 	Письмо отправлено из формы '".$type."' на сайте.<br />
@@ -36,17 +36,17 @@ $message =
 	Телефон: ".htmlspecialchars($phone)."<br />
 	Сообщение пользователя: ".htmlspecialchars($msg)."<br />
 ";
-$headers = "From: Users <mail@at-event.ru>\r\nContent-type: text/html; charset=utf8 \r\n";
-
+$headers = "From: at-event.ru <mail@at-event.ru>\r\nContent-type: text/html; charset=utf8 \r\n";
 
 
 if(mail ($to, $subject, $data_array, $headers))
 {
-	/*
+	
 	$to_copy = "andrey.tatyana@bk.ru";
-	//$to_copy = "evgeny2@rambler.ru";
-	$copy = mail ($to_copy, $subject, $message, $headers);
-	*/
+	
+    // $message_copy = 'testovoe soobshenie';
+    // $to_copy = "evgeny2@rambler.ru";
+    $copy = mail ($to_copy, $subject, $data_array, $headers);
 	echo '1';
 
 }

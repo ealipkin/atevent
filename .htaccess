@@ -1,12 +1,13 @@
+ErrorDocument 404 http://at-event.ru/404.html
 <IfModule mod_deflate.c>
-AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/javascript text/css application/x-javascript
+AddOutputFilterByType DEFLATE image/svg text/html text/plain text/xml application/xml application/xhtml+xml text/javascript text/css application/x-javascript
 BrowserMatch ^Mozilla/4 gzip-only-text/html
 BrowserMatch ^Mozilla/4.0[678] no-gzip
 BrowserMatch bMSIE !no-gzip !gzip-only-text/html
 <ifmodule mod_gzip.c>
 mod_gzip_on Yes
 mod_gzip_item_include file \.js$
-mod_gzip_item_include file \.css$ 
+mod_gzip_item_include file \.css$
 </ifmodule>
 </IfModule>
 
@@ -60,10 +61,8 @@ AddType application/x-httpd-php .php .htm .html
 AddDefaultCharset UTF-8
 DirectoryIndex index.php
 
-Options -Indexes
-Options +FollowSymLinks
 
-RewriteEngine on
+rewriteEngine on
 
 #RewriteCond %{HTTP_HOST} ^www\.at-event\.ru$ [NC]
 #RewriteRule ^(.*)$ http://at-event.ru/$1 [R=301,L]
@@ -76,4 +75,24 @@ RewriteRule ^(.*)$ /index.php?q=$1 [L,QSA]
   <FilesMatch "\.(js|css|xml|gz|html)$">
      Header append Vary: Accept-Encoding
   </FilesMatch>
+</IfModule>
+
+# Включаем кэш в браузерах посетителей
+<ifModule mod_headers.c>
+    # Все html и htm файлы будут храниться в кэше браузера один день
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "max-age=43200"
+    </FilesMatch>
+    # Все css, javascript и текстовые файлы будут храниться в кэше браузера одну неделю
+    <FilesMatch "\.(js|css|txt)$">
+        Header set Cache-Control "max-age=604800"
+    </FilesMatch>
+    # Все флэш файлы и изображения будут храниться в кэше браузера один месяц
+    <FilesMatch "\.(flv|swf|ico|gif|jpg|jpeg|png)$">
+        Header set Cache-Control "max-age=2592000"
+    </FilesMatch>
+    # Отключаем кеширование php и других служебных файлов
+    <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+        Header unset Cache-Control
+    </FilesMatch>
 </IfModule>

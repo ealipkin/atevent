@@ -478,7 +478,7 @@ switch ($_URLP) {
         break;
 
     case 'at':
-        $TITLE .= 'Ведущие Андрей и Татьяна';
+        $TITLE .= 'Ведущие на праздники и корпоративы в Челябинске Андрей и Татьяна';
         $file = 'bloks/at.php';
         $slider = 1;
         $landing = 1;

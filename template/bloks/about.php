@@ -81,7 +81,7 @@
         <div id="vk_groups"></div>
     </div>
     <div class="about-contacts-block">
-            <h4><a href="tel:79823112892" class="phone-link">+7 (982) 311-28-92</a>, г. Челябинск</h4>
+            <h4><a href="tel:79823112892" class="phone-link">+7 (982) 311-28-92</a>, г. Челябинск, ул. Бейвеля, 27</h4>
             <a href="at-event.ru">AT-EVENT.RU</a> 
             <br>
             <br>

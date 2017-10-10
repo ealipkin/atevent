@@ -1,0 +1,6 @@
+User-agent: Yandex
+Disallow:
+Host: at-event.ru
+
+User-agent: *
+Disallow:
