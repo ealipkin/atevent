@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+}
+
+.fs-0 {
+  font-size: 0;
+}
+
+.tac {
+  text-align: center;
+}
+
+.cap-text {
+  &__cap {
+
+  }
+
+  &__text {
+
+  }
+}

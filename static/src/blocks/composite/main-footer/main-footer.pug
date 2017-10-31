@@ -1,0 +1,16 @@
+mixin main-footer()
+    //popups
+    .popup__overlay.popup-mail
+        .popup
+            a(href="#").popup__close X
+            h4 Напишите нам!
+            p У вас есть вопросы? Мы с радостью ответим на них!
+            form(id="form", data-type="Форма напишите мне в шапке сайта").popup-form
+                .form-preloader
+                input(type="text", placeholder="Введите ваше имя", name="Имя", required, minlength="1").f-name
+                input(type="text", placeholder="Адрес электронной почты", name="Почта").f-mail
+                textarea(type="text" placeholder="Текст сообщения" name="Текст сообщения").f-text
+                button.popup-mailme-btn.button Отправить
+                div.form-message
+    //footer
+    .main-footer

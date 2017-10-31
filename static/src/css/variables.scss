@@ -1,0 +1,106 @@
+//mediaqueries//mediaqueries
+$desktop-width: "1200px";
+$laptop-width: "992px";
+$tablet-width: "768px";
+$mobile-width: "576px";
+
+$desktop: "(min-width: #{$desktop-width})";
+$laptop: "(min-width: #{$laptop-width})";
+$tablet: "(min-width: #{$tablet-width})";
+$mobile: "(min-width: #{$mobile-width})";
+
+@mixin desktop {
+  @media #{$desktop} {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media #{$laptop} {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media #{$tablet} {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media #{$mobile} {
+    @content;
+  }
+}
+
+$contentPadding: 20px;
+
+//colors
+$pink: #ff3468;
+$pinkHover: #FF678D;
+$pinkActive: #FF8FAB;
+
+//fonst
+$circeRounded: 'CirceRounded', sans-serif;
+
+//rouble
+@mixin rouble() {
+  &:after {
+    font-family: 'PT Rouble Sans';
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-left: 3px;
+    top: -2px;
+    content: 'З';
+  }
+}
+
+@mixin loader($color: $pink) {
+  border: 4px double;
+  border-radius: 50%;
+  border-color: transparent $color $color;
+  animation: loader-spin 690ms infinite linear;
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@keyframes loader-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes loader-spin {
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes loader-spin {
+  100% {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes loader-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes loader-spin {
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

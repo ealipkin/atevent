@@ -1,0 +1,491 @@
+.landing {
+  background: white;
+  
+  &__title {
+    line-height: 1.5em;
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+
+    @include laptop() {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.landing-promo {
+  background: white url(../img/landings/at1.jpg) no-repeat center bottom;
+  padding: $contentPadding;
+  padding-bottom: 0;
+  background-size: 320px;
+  text-align: center;
+
+  @include laptop() {
+    background-size: 65%;
+    background-position: right bottom;
+  }
+
+  &__top-text {
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 20px;
+    justify-content: center;
+
+    @include laptop() {
+      font-size: 39px;
+      margin-bottom: 70px;
+      justify-content: flex-start;
+    }
+  }
+
+  &__mid-text {
+    text-transform: uppercase;
+    font-size: 38px;
+    padding-bottom: 210px;
+
+    @include laptop() {
+      font-size: 40px;
+      margin-bottom: 90px;
+      padding-bottom: 0;
+      text-align: left;
+    }
+
+    span {
+      line-height: 1em;
+      display: block;
+
+      &:nth-child(2) {
+        font-size: 1.22em;
+      }
+      &:last-child {
+        font-size: 0.6em;
+      }
+    }
+  }
+
+  &__bottom {
+    font-size: 34px;
+    background: rgba(255, 52, 104, 0.7);
+    padding: $contentPadding;
+    margin-left: -$contentPadding;
+    margin-right: -$contentPadding;
+    display: none;
+
+    @include laptop() {
+      display: block;
+      text-align: left;
+    }
+    .cap-text__text span {
+
+      &:nth-last-child(1) {
+        margin-left: 5px;
+        letter-spacing: 1px;
+      }
+      &:nth-last-child(2) {
+        margin-left: 10px;
+        letter-spacing: 1px;
+      }
+      &:nth-last-child(3) {
+        letter-spacing: 1px;
+      }
+      &:nth-last-child(4) {
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+
+.landing-list {
+  @include laptop() {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+    @include laptop() {
+      width: 45%;
+    }
+
+    &:nth-child(1),
+    &:nth-child(2) {
+      .landing-list__icon {
+        width: 30%;
+      }
+    }
+    &:nth-child(3) {
+      .landing-list__icon {
+        width: 45%;
+      }
+    }
+    &:nth-child(4) {
+      .landing-list__icon {
+        width: 55%;
+      }
+    }
+
+    &:nth-child(5),
+    &:nth-child(6) {
+      .landing-list__icon {
+        width: 50%;
+      }
+    }
+  }
+
+  &__icon {
+    width: 25%;
+    margin-right: 20px;
+    img {
+      max-width: 100%;
+      display: block;
+    }
+  }
+  
+  &__text {
+    font-size: 16px;
+  }
+
+}
+
+.landing-promo-2 {
+  padding: $contentPadding;
+  position: relative;
+  z-index: 1;
+  background: white url(../img/landings/banner-2/bg.jpg) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+
+  .landing__title {
+    margin-top: 0;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 101%;
+    height: 101%;
+    left: 0;
+    top: 0;
+    background: white;
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+  &__benefits {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  &__benefit-item {
+    text-align: center;
+    max-width: 150px;
+  }
+
+  &__benefit-icon {
+    max-width: 100%;
+    max-height: 80px;
+    margin-bottom: 5px;
+  }
+  
+  &__benefit-text {
+    font-size: 16px;
+  }
+
+  &__info {
+    text-align: right;
+    margin-top: 30px;
+
+    font-size: 20px;
+    text-transform: uppercase;
+
+    &-wrapper {
+      line-height: 2em;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .btn {
+      margin-top: 10px;
+    }
+  }
+
+  &__phone {
+    font-size: 40px;
+  }
+}
+
+.landing-videos {
+  background: white url(../img/landings/videos-bg.jpg) no-repeat center bottom;
+  background-size: 85%;
+  background-position-y: 140%;
+  position: relative;
+  z-index: 1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: $pink;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  &__wrap {
+    padding-right: 60px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 30%;
+    font-size: 0;
+  }
+
+  &__video {
+    width: 100%;
+    display: block;
+  }
+
+  &__bottom {
+    margin-top: 80px;
+  }
+}
+
+.landing-mosaic {
+  font-size: 0;
+  position: relative;
+  z-index: 2;
+  
+  img {
+    vertical-align: top;
+  }
+  &__row {
+    margin-bottom: 40px;
+    font-size: 0;
+    position: relative;
+  }
+
+  &__footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+}
+
+.landing-about {
+  img {
+    max-width: 100%;
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__col {
+    width: 48%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+  }
+}
+
+.price-promo {
+  background: url(../img/landings/price-promo/bg.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: -92px;
+  padding-top: 92px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 101%;
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+  &__wrap {
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    padding: 5px;
+  }
+
+  &__inner {
+    position: relative;
+    padding-top: 1px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  &__img {
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 0;
+    img {
+      display: block;
+    }
+  }
+
+  &__list {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__bottom {
+    margin-top: 40px;
+    padding-bottom: 1px;
+  }
+
+  &__info {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    p {
+      font-size: 20px;
+      margin-bottom: 0;
+      margin-top: 5px;
+    }
+  }
+  
+  &__text {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+}
+
+.landing-faq {
+  background: url(../img/landings/price-promo/bg.jpg) no-repeat center;
+  position: relative;
+  z-index: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 101%;
+    background: #ff3468;
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 83%;
+    margin: 0 auto;
+  }
+
+  &__text {
+    width: 51%;
+    font-size: 20px;
+    line-height: 1.2em;
+  }
+
+  &__button {
+    width: 43%;
+    text-align: right;
+
+    .btn {
+      height: 43px;
+      min-width: 200px;
+      font-size: 20px;
+      line-height: 1.4em;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+  }
+}
+
+.landing-send-us {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  background: white url(../img/landings/form-bg.jpg) no-repeat center 20%;
+  background-size: cover;
+  font-size: 28px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.7;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  &__text-block {
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 43px;
+  }
+
+  p {
+    line-height: 1.4em;
+    margin-bottom: 5px;
+  }
+
+  &__phone {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    margin-left: 20px;
+    &:hover {
+      color: $pink;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .btn {
+      margin-bottom: 0;
+    }
+  }
+}

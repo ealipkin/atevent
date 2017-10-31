@@ -17,15 +17,6 @@
 	<h3><a href="/wedding.php" title="свадебные ведущие">Также мы поможем организовать свадьбу мечты!</a></h3>
 <p align="center"><a href="/weddingbattle.php" title="тамада челябинск"><img src="/template/bloks/price.jpg" alt=""></a></p>
 </div>
-							<script type='text/javascript'>
-  function showHide(divId)
-  {
-      if ( document.getElementById(divId).style.display == 'block' )
-          document.getElementById(divId).style.display = 'none';
-      else
-          document.getElementById(divId).style.display = 'block';
-  }
-  </script>
   <a href="#first" onclick="showHide('first');"><h3>Лучшие ведущие для ваших праздников</h3></a>
    <div id="first" style="display:none">
 <p>Праздник – это такое мероприятие, которое по природе своей должно стать запоминающимся, ярким. Впечатления – самое главное, вне зависимости от того, о каком именно торжестве идет речь. Организаторам всегда хватает хлопот – ведь нужно подготовить и территорию, и угощения. А между тем, нельзя забывать и о культурной программе. Именно она обеспечивает:
@@ -113,7 +104,9 @@
 		</ul>
 	</div>
 </div>
+
 <div class="leading-faq">
+    
 	<h4 class="leading-header"><a href="#" class="leading-faq-link toggle-hide-block dashed-link">Часто задаваемые вопросы</a></h4>
 	<div class="leading-faq-info hide-block">
 		<p>Наши клиенты всегда задают нам много вопросов, как о нашем стиле ведения праздников, так и о личной жизни. Мы решили составить ТОП самых популярных из них  и дать ответы, чтобы Вы имели представление, с кем имеете дело:
@@ -160,7 +153,8 @@
 				</p>
 			</li>
 		</ul>
-	</div>						
+	</div>
+    
 </div>
 
 <div class="review-block">

@@ -27,15 +27,6 @@
                                 <li>Это не приторное наполнение программы современными фишками.</li>
                                 <li>WEDDING BATTLE - это #традициивинновациях</li></div>
 								<iframe width="100%" height="315" src="https://www.youtube.com/embed/ffi3-eXqDc4?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe><br><br>
-								<script type='text/javascript'>
-  function showHide(divId)
-  {
-      if ( document.getElementById(divId).style.display == 'block' )
-          document.getElementById(divId).style.display = 'none';
-      else
-          document.getElementById(divId).style.display = 'block';
-  }
-  </script>
   <a href="#first" onclick="showHide('first');"><h3>Тамада в Челябинске!</h3></a>
 <div id="first" style="display:none"><p>Крупные праздничные мероприятия могут предполагать визиты множества гостей – порой собираются десятки, и даже сотни человек. И все они желают не просто поздравить виновника торжества и посидеть за столом, но и получить максимум ярких впечатлений, крайне важно, чтобы никто из них не оставался без внимания и все стали полноценными участниками мероприятия. Именно поэтому и приглашается тамада на свадьбу, ведь подход к этому вопросу необходимо обеспечить самый серьезный. Задачей такого специалиста становится:
 </p><ul class="ul"><li>Проведение праздника в соответствии со всеми обычаями,</li>

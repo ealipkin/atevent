@@ -37,15 +37,6 @@
 							     </div>
                                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/m5reUH_Dajo?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 							<br><br>
-							<script type='text/javascript'>
-  function showHide(divId)
-  {
-      if ( document.getElementById(divId).style.display == 'block' )
-          document.getElementById(divId).style.display = 'none';
-      else
-          document.getElementById(divId).style.display = 'block';
-  }
-  </script>
   <a href="#first" onclick="showHide('first');"><h3>Профессиональный ведущий на свадьбу</h3></a>
    <div id="first" style="display:none">
        <p>Свадьба – это особое мероприятие, которое должно остаться в памяти новобрачных и их окружения на всю жизнь. Соответствующей должна быть и организация такого праздника - ведущий на свадьбу потребуется в обязательном порядке. Ведь именно он сможет организовать гостей, исключить множество неприятностей, создать именно ту обстановку, которая окажется наиболее подходящей и приятной для всех. Среди задач, которые решает данный специалист, стоит отметить в первую очередь такие:

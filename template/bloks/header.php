@@ -22,7 +22,7 @@
     </div>
     <div class="header-center">
         <?= ('/' == $_SERVER["REQUEST_URI"]) ? '' : '<a href="/" >' ?>
-        <img src="./img/logo-name-pink.png" width="321px" height="76px">
+        <img src="./img/logo-name-pink.png" width="321px">
         <?= ('/' == $_SERVER["REQUEST_URI"]) ? '' : '</a>' ?>
         <h5>Свадебное агенство</h5>
     </div>
@@ -33,47 +33,45 @@
         <h6 style="text-align:right">г. Челябинск, ул. Бейвеля, 27</h6>
 
         <div class="header-social-btn">
-            <a class="vk-btn-head" href="https://vk.com/at.event" target="_blank"></a>
-            <a class="youtube-btn-head" href="https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA"
+            <a class="vk-btn" href="https://vk.com/at.event" target="_blank"></a>
+            <a class="youtube-btn" href="https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA"
                target="_blank"></a>
-            <a class="insta-btn-head" href="https://instagram.com/at.event/" target="_blank"></a>
+            <a class="insta-btn" href="https://instagram.com/at.event/" target="_blank"></a>
         </div>
     </div>
 </header>
-<div class="hideMenu">
-    <nav class="main-menu">
-        <ul>
-            <li><a <?= ('/at' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/at"' ?> >
-                    <div class="main-menu-lead"></div>
-                    <span>Ведущие</span></a></li>
-            <li><a <?= ('/artists' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/artists"' ?>>
-                    <div class="main-menu-artists"></div>
-                    <span>Артисты</span></a></li>
-            <li><a <?= ('/auto' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/auto"' ?>>
-                    <div class="main-menu-auto"></div>
-                    <span>Автомобили</span></a></li>
-            <li>
-                <a <?= ('/decorate' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/decorate"' ?>>
-                    <div class="main-menu-decorate"></div>
-                    <span>Оформление</span></a></li>
-            <li>
-                <a <?= ('/photographs' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/photographs"' ?>>
-                    <div class="main-menu-photo"></div>
-                    <span>Фото/видео</span></a></li>
-            <li><a <?= ('/cakes' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/cakes"' ?>>
-                    <div class="main-menu-cakes"></div>
-                    <span>Торты</span></a></li>
-            <li><a <?= ('/places' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/places"' ?>>
-                    <div class="main-menu-restaraunts"></div>
-                    <span>Рестораны</span></a></li>
-            <li>
-                <a <?= ('/other_services' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/other_services"' ?>>
-                    <div class="main-menu-another"></div>
-                    <span>Другие услуги</span></a></li>
-        </ul>
-    </nav>
-</div>
 <a href='#' class='mobile_menu mobile_menu_first showAllMenu'>Показать меню</a>
+<nav class="main-menu">
+    <ul>
+        <li><a <?= ('/at' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/at"' ?> >
+                <div class="main-menu-lead"></div>
+                <span>Ведущие</span></a></li>
+        <li><a <?= ('/artists' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/artists"' ?>>
+                <div class="main-menu-artists"></div>
+                <span>Артисты</span></a></li>
+        <li><a <?= ('/auto' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/auto"' ?>>
+                <div class="main-menu-auto"></div>
+                <span>Автомобили</span></a></li>
+        <li>
+            <a <?= ('/decorate' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/decorate"' ?>>
+                <div class="main-menu-decorate"></div>
+                <span>Оформление</span></a></li>
+        <li>
+            <a <?= ('/photographs' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/photographs"' ?>>
+                <div class="main-menu-photo"></div>
+                <span>Фото/видео</span></a></li>
+        <li><a <?= ('/cakes' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/cakes"' ?>>
+                <div class="main-menu-cakes"></div>
+                <span>Торты</span></a></li>
+        <li><a <?= ('/places' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/places"' ?>>
+                <div class="main-menu-restaraunts"></div>
+                <span>Рестораны</span></a></li>
+        <li>
+            <a <?= ('/other_services' == $_SERVER["REQUEST_URI"]) ? 'class="menu-active" href="#"' : 'href="/other_services"' ?>>
+                <div class="main-menu-another"></div>
+                <span>Другие услуги</span></a></li>
+    </ul>
+</nav>
 <!-- Модальные окна -->
 <div class="popup__overlay popup-callback">
     <div class="popup">

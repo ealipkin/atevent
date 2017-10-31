@@ -23,9 +23,7 @@ switch ($_URLP) {
         $styles = '
 					<link href="/css/nivo-slider/default/default.css" rel="stylesheet">
 					';
-        $scripts = '
-						<script src="/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
-						';
+        $metatags = '';
         break;
 
     case 'sendmail':
@@ -38,8 +36,9 @@ switch ($_URLP) {
 						';
         $scripts .= '
 						<script src="/js/Gritter/js/jquery.gritter.js"></script>
-						<script src="/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+						
 						';
+        $metatags = '';
         break;
 
     case 'price':
@@ -50,8 +49,9 @@ switch ($_URLP) {
 						<link href="/css/nivo-slider/default/default.css" rel="stylesheet">
 						';
         $scripts = '
-						<script src="/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+						
 						';
+        $metatags = '';
         break;
 
     case 'reviews':
@@ -62,8 +62,9 @@ switch ($_URLP) {
 						<link href="/css/nivo-slider/default/default.css" rel="stylesheet">
 						';
         $scripts .= '
-						<script src="/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+						
 						';
+        $metatags = '';
         break;
 
     case 'decorate':
@@ -78,6 +79,7 @@ switch ($_URLP) {
 						<script src="js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>
 						<script src="js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'dec_auto':
@@ -92,6 +94,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'dec_hall':
@@ -106,6 +109,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'dec_reg':
@@ -120,6 +124,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'dec_bubbles':
@@ -134,6 +139,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'author_services':
@@ -151,6 +157,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						';
+        $metatags = '';
         break;
 
     case 'artists':
@@ -166,6 +173,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'photographs':
@@ -182,6 +190,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'videographs':
@@ -200,6 +209,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						';
+        $metatags = '';
         break;
 
     case 'style_wedding':
@@ -215,6 +225,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>
 					';
+        $metatags = '';
         break;
 
     case 'accessories':
@@ -229,6 +240,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'acc_wedding':
@@ -243,6 +255,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'acc_fotozone':
@@ -257,6 +270,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'acc_sweets':
@@ -271,6 +285,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'acc_renta':
@@ -285,6 +300,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'acc_glass':
@@ -299,6 +315,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'acc_invites':
@@ -313,6 +330,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'acc_sitcards':
@@ -327,6 +345,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'acc_other':
@@ -341,6 +360,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'cakes':
@@ -357,6 +377,7 @@ switch ($_URLP) {
 						<script src="js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'auto':
@@ -371,6 +392,7 @@ switch ($_URLP) {
 						<script src="/js/jquery.nivo.slider.pack.js"></script>
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'flowers':
@@ -387,6 +409,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						<script src="js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'advice':
@@ -401,6 +424,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'partners':
@@ -411,8 +435,9 @@ switch ($_URLP) {
 						<link href="/css/nivo-slider/default/default.css" rel="stylesheet">
 						';
         $scripts .= '
-						<script src="/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+						
 						';
+        $metatags = '';
         break;
 
 
@@ -431,6 +456,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'places':
@@ -447,6 +473,7 @@ switch ($_URLP) {
 						<script src="js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						';
+        $metatags = '';
         break;
 
     case 'original_service':
@@ -461,6 +488,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'firework':
@@ -475,6 +503,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'at':
@@ -492,6 +521,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $metatags = '';
         break;
 
 
@@ -510,6 +540,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'os_horse':
@@ -524,6 +555,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'os_yacht':
@@ -538,6 +570,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'os_balloon':
@@ -552,6 +585,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'os_plane':
@@ -566,6 +600,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'os_parachute':
@@ -580,6 +615,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'photo_places':
@@ -596,6 +632,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						<script src="js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>';
+        $metatags = '';
         break;
 
     case 'wedding_dress':
@@ -610,6 +647,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'man_outfit':
@@ -624,6 +662,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'hair_makeup':
@@ -638,6 +677,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'rings':
@@ -652,6 +692,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'salut':
@@ -666,6 +707,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'fire_fountains':
@@ -680,6 +722,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'fire_sings':
@@ -694,6 +737,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
 
@@ -709,6 +753,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'tech_sound':
@@ -723,6 +768,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'tech_light':
@@ -737,6 +783,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'tech_video':
@@ -751,6 +798,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'tech_effects':
@@ -765,6 +813,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'fun':
@@ -779,6 +828,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'polygraphy':
@@ -793,6 +843,7 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
     case 'souvenirs':
@@ -807,34 +858,30 @@ switch ($_URLP) {
 						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
 						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>';
+        $metatags = '';
         break;
 
+    case 'test':
+        $TITLE .= 'Тестовая страница';
+        $file = 'bloks/test.php';
+        $adaptive = 1;
+        $slider = 1;
+        $landing = 1;
+        $metatags = '';
+        break;
 
-    /*
-            case 'test':
-                $TITLE .= 'Тестовая страница';
-                $file  = 'bloks/test.php';
-                $slider = 0;
-                $styles = '
-
-                            ';
-                $scripts .= '';
-            break;
-
-    */
 
     case 'search':
         $TITLE .= 'Тестовая страница';
         $file = 'bloks/search.php';
         $slider = 0;
-        $styles = '
-					
-						';
+        $styles = '';
         $scripts .= '';
+        $metatags = '';
         break;
 
 
-    default:
+    case '':
         $TITLE .= "Главная страница";
         $slider = 1;
         $file = 'bloks/main.php';
@@ -850,6 +897,13 @@ switch ($_URLP) {
 						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
 						<script src="/js/jquery.nivo.slider.pack.js"></script>
 						';
+        $metatags = '';
         break;
+
+    default:
+        $TITLE .= "Страница не найдера";
+        $slider = 1;
+        $file = 'bloks/404.php';
+
 }
 ?>

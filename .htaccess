@@ -1,4 +1,3 @@
-ErrorDocument 404 http://at-event.ru/404.html
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE image/svg text/html text/plain text/xml application/xml application/xhtml+xml text/javascript text/css application/x-javascript
 BrowserMatch ^Mozilla/4 gzip-only-text/html
@@ -28,7 +27,7 @@ ExpiresByType image/jpg "access plus 1 year"
 ExpiresByType image/x-icon "access 1 year"
 ExpiresByType application/x-shockwave-flash "access 1 year"
 </IfModule>
- 
+
 # Cache-Control
 <ifModule mod_headers.c>
 # 30 дней
@@ -48,7 +47,7 @@ Header set Cache-Control "max-age=172800, public, must-revalidate"
 Header set Cache-Control "max-age=172800, private, must-revalidate"
 </filesMatch>
 </ifModule>
- 
+
 #Запрет отдачи HTTP-заголовков Vary браузерам семейства MSIE
 <IfModule mod_setenvif.c>
 BrowserMatch "MSIE" force-no-vary

@@ -1,1 +1,4 @@
 /img/
+/static/node_modules/
+/static/dest/
+/static/src/img/
