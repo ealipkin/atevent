@@ -3,16 +3,16 @@ function getSlider($path){
 	return $html = '
 		<div class="slider-wrapper theme-default">
 			<div id="slider" class="nivoSlider">
-			<img src="./img/slider/'.$path.'/1.jpg" alt="" width="895px" height="280px" title=""/>
-			<img src="./img/slider/'.$path.'/2.jpg" alt="" width="895px" height="280px" title=""/>
-			<img src="./img/slider/'.$path.'/3.jpg" alt="" width="895px" height="280px" title=""/>
-			<img src="./img/slider/'.$path.'/4.jpg" alt="" width="895px" height="280px" title=""/>
-			<img src="./img/slider/'.$path.'/5.jpg" alt="" width="895px" height="280px" title=""/>
-			<img src="./img/slider/'.$path.'/6.jpg" alt="" width="895px" height="280px" title=""/>
-			<img src="./img/slider/'.$path.'/7.jpg" alt="" width="895px" height="280px" title=""/>
-			<img src="./img/slider/'.$path.'/8.jpg" alt="" width="895px" height="280px" title=""/>
-			<img src="./img/slider/'.$path.'/9.jpg" alt="" width="895px" height="280px" title=""/>
-			<img src="./img/slider/'.$path.'/10.jpg" alt="" width="895px" height="280px" title=""/>
+			<img src="./img/slider/'.$path.'/1.jpg" alt=""  title=""/>
+			<img src="./img/slider/'.$path.'/2.jpg" alt=""  title=""/>
+			<img src="./img/slider/'.$path.'/3.jpg" alt=""  title=""/>
+			<img src="./img/slider/'.$path.'/4.jpg" alt=""  title=""/>
+			<img src="./img/slider/'.$path.'/5.jpg" alt=""  title=""/>
+			<img src="./img/slider/'.$path.'/6.jpg" alt=""  title=""/>
+			<img src="./img/slider/'.$path.'/7.jpg" alt=""  title=""/>
+			<img src="./img/slider/'.$path.'/8.jpg" alt=""  title=""/>
+			<img src="./img/slider/'.$path.'/9.jpg" alt=""  title=""/>
+			<img src="./img/slider/'.$path.'/10.jpg" alt=""  title=""/>
 			</div>
 		</div>
 	';
@@ -24,13 +24,13 @@ function getLinkedSlider($path, $link_array){
 	    if($value === ''){
     		$img_html .= '
     		<span>
-    			<img src="./img/slider/'.$path.'/'.++$key.'.jpg" alt="" title="" width="895px" height="280px"/>
+    			<img src="./img/slider/'.$path.'/'.++$key.'.jpg" alt="" title="" />
     		</span>
 		';
 	    } else {
     		$img_html .= '
     		<a href="'.$value.'">
-    			<img src="./img/slider/'.$path.'/'.++$key.'.jpg" alt="" title="" width="895px" height="280px"/>
+    			<img src="./img/slider/'.$path.'/'.++$key.'.jpg" alt="" title="" />
     		</a>
     		';
 	    }
@@ -256,18 +256,19 @@ switch($_URLP)
 	break;
 
 	case 'at':
+	case 'wedding':
 		$img_path = 'at';
 		$html = '
 			<div class="slider-wrapper theme-default">
 				<div id="slider" class="nivoSlider">
-					<img src="./img/slider/at/1.jpg" alt="" width="895px" height="280px" />
-					<img src="./img/slider/at/2.jpg" alt="" width="895px" height="280px" />
-					<img src="./img/slider/at/3.jpg" alt="" width="895px" height="280px" />
-					<img src="./img/slider/at/4.jpg" alt="" width="895px" height="280px" />
-					<img src="./img/slider/at/5.jpg" alt="" width="895px" height="280px" />
-					<img src="./img/slider/at/6.jpg" alt="" width="895px" height="280px" />
-					<img src="./img/slider/at/7.jpg" alt="" width="895px" height="280px" />
-					<img src="./img/slider/at/8.jpg" alt="" width="895px" height="280px" />
+					<img src="./img/slider/at/1.jpg" alt=""  />
+					<img src="./img/slider/at/2.jpg" alt=""  />
+					<img src="./img/slider/at/3.jpg" alt=""  />
+					<img src="./img/slider/at/4.jpg" alt=""  />
+					<img src="./img/slider/at/5.jpg" alt=""  />
+					<img src="./img/slider/at/6.jpg" alt=""  />
+					<img src="./img/slider/at/7.jpg" alt=""  />
+					<img src="./img/slider/at/8.jpg" alt=""  />
 				</div>
 			</div>
 		';
@@ -278,41 +279,41 @@ switch($_URLP)
 			<div class="slider-wrapper theme-default ">
 				<div id="slider" class="nivoSlider">
 					<a target="_blank" href="at">
-						<img src="./img/slider/main/1_1.jpg" alt="" width="895px" height="280px" />
+						<img src="./img/slider/main/1_1.jpg" alt=""  />
 					</a>
 					<span>
-						<img src="./img/slider/main/2_2.jpg" alt="" width="895px" height="280px" />
+						<img src="./img/slider/main/2_2.jpg" alt=""  />
 					</span>
 					<span>
-						<img src="./img/slider/main/3_3.jpg" alt="" width="895px" height="280px" />
-					</span>
-
-					<span>
-						<img src="./img/slider/main/4_4.jpg" alt="" width="895px" height="280px" />
+						<img src="./img/slider/main/3_3.jpg" alt=""  />
 					</span>
 
 					<span>
-						<img src="./img/slider/main/5_5.jpg" alt="" width="895px" height="280px" />
+						<img src="./img/slider/main/4_4.jpg" alt=""  />
 					</span>
 
 					<span>
-						<img src="./img/slider/main/6_6.jpg" alt="" width="895px" height="280px" />
+						<img src="./img/slider/main/5_5.jpg" alt=""  />
+					</span>
+
+					<span>
+						<img src="./img/slider/main/6_6.jpg" alt=""  />
 					</span>
 					
 					<span>
-						<img src="./img/slider/main/7_7.jpg" alt="" width="895px" height="280px" />
+						<img src="./img/slider/main/7_7.jpg" alt=""  />
 					</span>
 					
 					<span>
-						<img src="./img/slider/main/8_8.jpg" alt="" width="895px" height="280px" />
+						<img src="./img/slider/main/8_8.jpg" alt=""  />
 					</span>
 					
 					<span>
-						<img src="./img/slider/main/9_9.jpg" alt="" width="895px" height="280px" />
+						<img src="./img/slider/main/9_9.jpg" alt=""  />
 					</span>
 					
 					<span>
-						<img src="./img/slider/main/10_10.jpg" alt="" width="895px" height="280px" />
+						<img src="./img/slider/main/10_10.jpg" alt=""  />
 					</span>
 
 				</div>

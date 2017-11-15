@@ -1,0 +1,49 @@
+.socials {
+  margin-top: 10px;
+  position: relative;
+  text-align: right;
+  
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  &__link {
+    background-color: #ff719a;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    height: 33px;
+    width: 33px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+    
+    &:last-child {
+      margin-right: 0;
+    }
+    
+    &:hover {
+      opacity: 0.8;
+    }
+    
+    &_transparent {
+      background-color: transparent;
+    }
+
+
+    &_vk {
+      background-image: url(../img/icons/vk.svg);
+    }
+
+    &_youtube {
+      background-image: url(../img/icons/youtube.svg);
+    }
+
+    &_insta {
+      background-image: url(../img/icons/insta.svg);
+    }
+  }
+}
+

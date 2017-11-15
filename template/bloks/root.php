@@ -54,6 +54,17 @@ switch ($_URLP) {
         $metatags = '';
         break;
 
+    case 'our-price':
+        $TITLE .= 'Цены';
+        $file = 'bloks/our-price.php';
+        $slider = 1;
+        $styles = '
+                    <link href="/css/nivo-slider/default/default.css" rel="stylesheet">
+                    ';
+        $scripts = '';
+        $metatags = '';
+        break;
+
     case 'reviews':
         $TITLE .= 'Отзывы о нас';
         $file = 'bloks/reviews.php';
@@ -146,17 +157,8 @@ switch ($_URLP) {
         $TITLE .= 'Авторские услуги';
         $file = 'bloks/author_services.php';
         $slider = 1;
-        $styles = '
-						<link href="/css/nivo-slider/default/default.css" rel="stylesheet">
-						<link href="/js/fancybox/helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
-						<link href="/js/fancybox/jquery.fancybox.css" rel="stylesheet">
-						';
-        $scripts .= '
-						<script src="/js/jquery.nivo.slider.pack.js"></script>
-						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
-						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
-						';
+        $styles = '';
+        $scripts .= '';
         $metatags = '';
         break;
 
@@ -180,16 +182,8 @@ switch ($_URLP) {
         $TITLE .= 'Фотографы';
         $file = 'bloks/photographs.php';
         $slider = 1;
-        $styles = '
-						<link href="/css/nivo-slider/default/default.css" rel="stylesheet">
-						<link href="/js/fancybox/helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
-						<link href="/js/fancybox/jquery.fancybox.css" rel="stylesheet">
-						';
-        $scripts .= '
-						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
-						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
-						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $styles = '';
+        $scripts .= '';
         $metatags = '';
         break;
 
@@ -440,22 +434,13 @@ switch ($_URLP) {
         $metatags = '';
         break;
 
-
     case 'about':
         $TITLE .= 'О нас';
         $file = 'bloks/about.php';
         $slider = 1;
         $landing = 1;
-        $styles = '
-						<link href="/css/nivo-slider/default/default.css" rel="stylesheet">
-						<link href="/js/fancybox/helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
-						<link href="/js/fancybox/jquery.fancybox.css" rel="stylesheet">
-						';
-        $scripts .= '
-						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
-						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
-						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $styles = '';
+        $scripts .= '';
         $metatags = '';
         break;
 
@@ -511,35 +496,24 @@ switch ($_URLP) {
         $file = 'bloks/at.php';
         $slider = 1;
         $landing = 1;
-        $styles = '
-						<link href="/css/nivo-slider/default/default.css" rel="stylesheet">
-						<link href="/js/fancybox/helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
-						<link href="/js/fancybox/jquery.fancybox.css" rel="stylesheet">
-						';
-        $scripts .= '
-						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
-						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
-						<script src="/js/jquery.nivo.slider.pack.js"></script>';
         $metatags = '';
         break;
-
+        
+    case 'wedding':
+        $TITLE .= 'Ведущие на праздники и корпоративы в Челябинске Андрей и Татьяна';
+        $file = 'bloks/wedding.php';
+        $slider = 1;
+        $landing = 1;
+        $metatags = '';
+        break;
 
     case 'other_services':
         $TITLE .= 'Другие услуги';
         $file = 'bloks/other_services.php';
         $slider = 1;
         $landing = 0;
-        $styles = '
-						<link href="/css/nivo-slider/default/default.css" rel="stylesheet">
-						<link href="/js/fancybox/helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
-						<link href="/js/fancybox/jquery.fancybox.css" rel="stylesheet">
-						';
-        $scripts .= '
-						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
-						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
-						<script src="/js/jquery.nivo.slider.pack.js"></script>';
+        $styles = '';
+        $scripts .= '';
         $metatags = '';
         break;
 
@@ -740,7 +714,6 @@ switch ($_URLP) {
         $metatags = '';
         break;
 
-
     case 'day_salut':
         $TITLE .= 'Дневные салюты';
         $file = 'bloks/fireworks/day_salut.php';
@@ -866,13 +839,12 @@ switch ($_URLP) {
         $file = 'bloks/test.php';
         $adaptive = 1;
         $slider = 1;
-        $landing = 1;
+        $landing = 0;
         $metatags = '';
         break;
 
-
     case 'search':
-        $TITLE .= 'Тестовая страница';
+        $TITLE .= 'Поиск по сайту';
         $file = 'bloks/search.php';
         $slider = 0;
         $styles = '';
@@ -880,25 +852,45 @@ switch ($_URLP) {
         $metatags = '';
         break;
 
+    case 'we-perform-official':
+        $TITLE .= 'Проведение свадебных торжеств';
+        $file = 'bloks/we-perform/official.php';
+        $slider = 1;
+        $landing = 1;
+        $metatags = '';
+        break;
+
+    case 'we-perform-birthday':
+        $TITLE .= 'Проведение дней рождений и юбилеев';
+        $file = 'bloks/we-perform/birthday.php';
+        $slider = 1;
+        $landing = 1;
+        $metatags = '';
+        break;
+
+    case 'we-perform-corporate':
+        $TITLE .= 'Проведение корпоративных мероприятий и вечерино';
+        $file = 'bloks/we-perform/corporate.php';
+        $slider = 1;
+        $landing = 1;
+        $metatags = '';
+        break;
+
+    case 'we-perform-graduation':
+        $TITLE .= 'Проведение корпоративных мероприятий и вечеринок';
+        $file = 'bloks/we-perform/graduation.php';
+        $slider = 1;
+        $landing = 1;
+        $metatags = '';
+        break;
 
     case '':
         $TITLE .= "Главная страница";
         $slider = 1;
         $file = 'bloks/main.php';
-        $styles = '
-						<link href="/css/nivo-slider/default/default.css" rel="stylesheet">
-						<link href="/js/fancybox/helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
-						<link href="/js/fancybox/jquery.fancybox.css" rel="stylesheet">
-						';
-
-        $scripts .= '
-						<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
-						<script src="/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-						<script src="/js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
-						<script src="/js/jquery.nivo.slider.pack.js"></script>
-						';
         $metatags = '';
         break;
+
 
     default:
         $TITLE .= "Страница не найдера";

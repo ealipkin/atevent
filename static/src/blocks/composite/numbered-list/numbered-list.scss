@@ -1,0 +1,37 @@
+.numbered-list {
+  &__item {
+    display: flex;
+    margin-bottom: 20px;
+    
+    align-items:flex-start;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @include tablet() {
+      align-items: center;
+    }
+  }
+  
+  &__number {
+    text-align: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    font-size: 0;
+    justify-content: center;
+    width: 40px;
+    margin-top: 7px;
+    
+    img {
+      max-width: 100%;
+    }
+
+
+    @include tablet() {
+      width: 58px;
+    }
+  }
+}

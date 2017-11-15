@@ -3,6 +3,15 @@ require_once('bloks/root.php');
 if ($landing == 1) {
     $class = 'landing-content p0 clearfix';
 }
+
+//Prevent cache new version of static
+$json = file_get_contents('static/busters.json');
+$json_data = json_decode($json,true);
+$mainJsFile = 'dest/js/main.js';
+$mainCssFile = 'dest/css/main.css';
+$jsLastVersion = $json_data[$mainJsFile];
+$cssLastVersion = $json_data[$mainCssFile];
+
 /*
 * HTML-минимизация
 */
@@ -23,7 +32,7 @@ ob_start();
 
         <?=$metatags ?>
 
-        <link href="/static/dest/css/main.css?6" rel="stylesheet">
+        <link href="/static/dest/css/main.css?<?=$cssLastVersion?>" rel="stylesheet">
         <?
         //        require_once('bloks/style.php');
         ?>
@@ -62,7 +71,8 @@ ob_start();
     ?>
 
     <link rel="shortcut icon" href="/favicon.ico">
-    <script src="/static/dest/js/main.js?1"></script>
+    <script src="/static/dest/js/main.js?<?=$jsLastVersion?>"></script>
+    
     <?php
     if (isset($scripts)) {
         echo $scripts;

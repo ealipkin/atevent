@@ -12,5 +12,50 @@ mixin main-footer()
                 textarea(type="text" placeholder="Текст сообщения" name="Текст сообщения").f-text
                 button.popup-mailme-btn.button Отправить
                 div.form-message
+    p#back-top
+        a(href='#top')
+            img(src='/img/up-arrow.png', alt='', width='50px', height='50px')
+            |         Вверх
+
     //footer
-    .main-footer
+    footer.main-footer.page-layout
+        .main-footer__left
+            h6
+                | Свадебное агенство «Академия&nbsp;торжеств»
+                br
+                | организация свадьбы в&nbspЧелябинске
+            h4
+                a.phone-link(href='tel:79823112892') +7(982) 311-28-92
+        ul.main-footer__links
+            li
+                a(href='/at') Ведущие
+            li
+                a(href='/artists') Артисты
+            li
+                a(href='/auto') Прокат автомобилей
+            li
+                a(href='/decorate') Оформление праздника
+            li
+                a(href='/photo') Услуги фотографа/оператора
+            li
+                a(href='/firework') Праздничный фейерверк
+        ul.main-footer__links
+            li
+                a(href='/places') Рестораны
+            li
+                a(href='/other_services') Оригинальные услуги
+            li
+                a(href='/author_services') Авторские услуги
+            li
+                a(href='/photo_places') Места для фотосессий
+            li
+                a(href='/style_wedding') Стилизованная свадьба
+            li
+                a(href='/advice') Советы молодоженам
+                
+        .main-footer__right
+            .socials.main-footer__socials
+                a.socials__link.socials__link_transparent.socials__link_vk(href='https://vk.com/at.event', target='_blank')
+                a.socials__link.socials__link_transparent.socials__link_youtube(href='https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA', target='_blank')
+                a.socials__link.socials__link_transparent.socials__link_insta(href='https://instagram.com/at.event/', target='_blank')
+    

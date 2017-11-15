@@ -1,3 +1,60 @@
 .main-footer {
+  background: #ffbbcd;
+  color: #444;
 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+
+  @include tablet() {
+    flex-wrap: nowrap;
+  }
+  
+  a, h6 {
+    color: #444;
+  }
+  
+  &__left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    @include tablet() {
+      text-align: left;
+      flex-shrink: 0;
+      padding-right: 20px;
+      box-sizing: border-box;
+      width: 200px;
+    }
+    
+    @include laptop() {
+      width: 300px;
+    }
+  }
+  
+  &__right {
+    flex-shrink: 0;
+    width: 100%;
+
+    @include tablet() {
+      width: 110px;
+    }
+  }
+  
+  &__links {
+    width: 45%;
+    margin-bottom: 10px;
+    
+    @include tablet() {
+      width: auto;
+      padding-right: 30px;
+    }
+  }
+  
+  &__socials {
+    margin-top: 0;
+  }
 }

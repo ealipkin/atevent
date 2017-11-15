@@ -14,19 +14,121 @@ mixin main-footer()
                 textarea(type="text" placeholder="Текст сообщения" name="Текст сообщения").f-text
                 button.popup-mailme-btn.button Отправить
                 div.form-message
+    p#back-top
+        a(href='#top')
+            img(src='/img/up-arrow.png', alt='', width='50px', height='50px')
+            |         Вверх
+
     //footer
-    .main-footer
+    footer.main-footer.page-layout
+        .main-footer__left
+            h6
+                | Свадебное агенство «Академия&nbsp;торжеств»
+                br
+                | организация свадьбы в&nbspЧелябинске
+            h4
+                a.phone-link(href='tel:79823112892') +7(982) 311-28-92
+        ul.main-footer__links
+            li
+                a(href='/at') Ведущие
+            li
+                a(href='/artists') Артисты
+            li
+                a(href='/auto') Прокат автомобилей
+            li
+                a(href='/decorate') Оформление праздника
+            li
+                a(href='/photo') Услуги фотографа/оператора
+            li
+                a(href='/firework') Праздничный фейерверк
+        ul.main-footer__links
+            li
+                a(href='/places') Рестораны
+            li
+                a(href='/other_services') Оригинальные услуги
+            li
+                a(href='/author_services') Авторские услуги
+            li
+                a(href='/photo_places') Места для фотосессий
+            li
+                a(href='/style_wedding') Стилизованная свадьба
+            li
+                a(href='/advice') Советы молодоженам
+                
+        .main-footer__right
+            .socials.main-footer__socials
+                a.socials__link.socials__link_transparent.socials__link_vk(href='https://vk.com/at.event', target='_blank')
+                a.socials__link.socials__link_transparent.socials__link_youtube(href='https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA', target='_blank')
+                a.socials__link.socials__link_transparent.socials__link_insta(href='https://instagram.com/at.event/', target='_blank')
+    
 mixin main-header()
     header.main-header.page-layout
         .main-header__left
             ul
                 li
-                    a(href="about").link О нашем агенстве
+                    a(href='about') О нашем агенстве
                 li
-                    button(type="button", data-link="popup-callback").link.link_dashed.popup-link Заказать обратный звонок
+                    a.popup-link.dashed(href='#', data-link='popup-callback')
+                        | Заказать
+                        | обратный звонок
                 li
-                    button(type="button", data-link="popup-mail").link.link_dashed.popup-link Написать нам
+                    a.popup-link.dashed(href='#', data-link='popup-mail') Написать нам
+            .main-header__search
+                .serach-form.ya-site-form.ya-site-form_inited_no(onclick="return {'action':'/search','arrow':false,'bg':'transparent','fontsize':12,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск at-event','suggest':true,'target':'_self','tld':'ru','type':3,'usebigdictionary':true,'searchid':2205509,'webopt':false,'websearch':false,'input_fg':'#000000','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск','input_placeholderColor':'#cccccc','input_borderColor':'#ffffff'}")
+                    form(action='http://yandex.ru/sitesearch', method='get', target='_self')
+                        input(type='hidden', name='searchid', value='2205509')
+                        input(type='hidden', name='l10n', value='ru')
+                        input(type='hidden', name='reqenc', value='')
+                        input(type='search', name='text', value='')
+                    
         .main-header__center
+            a(href='/')
+                img(src='./img/logo-name-pink.png')
+            h5 Свадебное агенство
+            
         .main-header__right
+            h4
+                a.phone-link(href='tel:79823112892') +7 (982) 311-28-92
+            h6 г. Челябинск, ул. Бейвеля, 27
+            .main-header__socials.socials
+                a.socials__link.socials__link_vk(href='https://vk.com/at.event', target='_blank')
+                a.socials__link.socials__link_youtube(href='https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA', target='_blank')
+                a.socials__link.socials__link_insta(href='https://instagram.com/at.event/', target='_blank')
+    
 mixin main-nav()
-    .main-nav
+    span.mobile_menu.mobile_menu_first.showAllMenu Показать меню
+    nav.main-nav.page-layout
+        ul.main-nav__inner
+            li.main-nav__item
+                a.main-nav__link(href='/at')
+                    span.main-nav__image.main-menu-lead
+                    span Ведущие
+            li.main-nav__item
+                a.main-nav__link(href='/artists')
+                    span.main-nav__image.main-menu-artists
+                    span Артисты
+            li.main-nav__item
+                a.main-nav__link(href='/auto')
+                    span.main-nav__image.main-menu-auto
+                    span Автомобили
+            li.main-nav__item
+                a.main-nav__link(href='/decorate')
+                    span.main-nav__image.main-menu-decorate
+                    span Оформление
+            li.main-nav__item
+                a.main-nav__link(href='/photographs')
+                    span.main-nav__image.main-menu-photo
+                    span Фото/видео
+            li.main-nav__item
+                a.main-nav__link(href='/cakes')
+                    span.main-nav__image.main-menu-cakes
+                    span Торты
+            li.main-nav__item
+                a.main-nav__link(href='/places')
+                    span.main-nav__image.main-menu-restaraunts
+                    span Рестораны
+            li.main-nav__item
+                a.main-nav__link(href='/other_services')
+                    span.main-nav__image.main-menu-another
+                    span Другие услуги
+    

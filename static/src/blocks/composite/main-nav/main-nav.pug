@@ -1,2 +1,37 @@
 mixin main-nav()
-    .main-nav
+    span.mobile_menu.mobile_menu_first.showAllMenu Показать меню
+    nav.main-nav.page-layout
+        ul.main-nav__inner
+            li.main-nav__item
+                a.main-nav__link(href='/at')
+                    span.main-nav__image.main-menu-lead
+                    span Ведущие
+            li.main-nav__item
+                a.main-nav__link(href='/artists')
+                    span.main-nav__image.main-menu-artists
+                    span Артисты
+            li.main-nav__item
+                a.main-nav__link(href='/auto')
+                    span.main-nav__image.main-menu-auto
+                    span Автомобили
+            li.main-nav__item
+                a.main-nav__link(href='/decorate')
+                    span.main-nav__image.main-menu-decorate
+                    span Оформление
+            li.main-nav__item
+                a.main-nav__link(href='/photographs')
+                    span.main-nav__image.main-menu-photo
+                    span Фото/видео
+            li.main-nav__item
+                a.main-nav__link(href='/cakes')
+                    span.main-nav__image.main-menu-cakes
+                    span Торты
+            li.main-nav__item
+                a.main-nav__link(href='/places')
+                    span.main-nav__image.main-menu-restaraunts
+                    span Рестораны
+            li.main-nav__item
+                a.main-nav__link(href='/other_services')
+                    span.main-nav__image.main-menu-another
+                    span Другие услуги
+    

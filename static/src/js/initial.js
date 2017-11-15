@@ -35,18 +35,20 @@
 })();
 
 function showHide(divId) {
-  if ( document.getElementById(divId).style.display == 'block' )
+  if (document.getElementById(divId).style.display == 'block') {
     document.getElementById(divId).style.display = 'none';
-  else
+  }
+  else {
     document.getElementById(divId).style.display = 'block';
+  }
 }
 
 (function() {
   $('.mosaic').justifiedGallery({
-    rowHeight: '215px',
+    rowHeight: '220px',
     captions: false,
     margins: 0,
-    lastRow: 'hide',
+    lastRow: 'justify',
   });
   
   //old scripts
@@ -93,10 +95,15 @@ function showHide(divId) {
     prevText: 'Prev',
     nextText: 'Next',
     randomStart: true,
+    afterLoad: function(e){
+      $('#slider').addClass('nivoSlider-inited');
+    }
   });
+  
   $('.nivoSlider a[href=popup-open]').click(function() {
     $('.popup-mail').show()
   });
+  
   $('.popup-link').click(function(e) {
     e.preventDefault();
     var $popup = $('.' + $(this).data('link'));
@@ -153,13 +160,13 @@ function showHide(divId) {
 
   $('.showAllMenu').click(function(e) {
     e.preventDefault();
-    let $menu = $('.main-menu');
+    let $menu = $('.main-nav');
 
-    if ($menu.hasClass('main-menu_show')) {
-      $menu.removeClass('main-menu_show');
+    if ($menu.hasClass('main-nav_show')) {
+      $menu.removeClass('main-nav_show');
       $(this).text('Показать меню');
     } else {
-      $menu.addClass('main-menu_show');
+      $menu.addClass('main-nav_show');
       $(this).text('Скрыть меню');
     }
   });
@@ -174,12 +181,51 @@ function showHide(divId) {
   });
   
   $('.review-slider').slick({
-    slidesToShow: 5,
-    slidesToScroll: 1,
     adaptiveHeight: true,
     asNavFor: '.review-text-block',
     centerMode: true,
-    focusOnSelect: true
+    focusOnSelect: true,
+    mobileFirst: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 5,
+        }
+      }
+    ]
+  });
+  
+  $('.landing-promo-2__benefits').slick({
+    mobileFirst: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: "unslick",
+      },
+    ],
+  });
+  
+  $('.price-promo__list').slick({
+    mobileFirst: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: "unslick",
+      },
+    ],
   });
   
   $('.landing-sendform-btn').click(function(event) {

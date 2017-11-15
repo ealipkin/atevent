@@ -5,43 +5,28 @@
     </a>
 </p>
 
-<div id="main-footer" class="footer">
-        <div class="footer-left">
-                <h6>Свадебное агенство «Академия&nbspторжеств»<br />организация свадьбы в Челябинске</h6>
-                <h4>
-                    <a href="tel:79823112892" class="phone-link">+7(982) 311-28-92</a>
-                </h4>
-        </div>
-                <ul>
-                        <li><a href="/at">Ведущие</a></li>
-                        <li><a href="/artists">Артисты</a></li>
-                        <li><a href="/auto">Прокат автомобилей</a></li>
-                        <li><a href="/decorate">Оформление праздника</a></li>
-                        <li><a href="/photo">Услуги фотографа/оператора</a></li>
-                        <li><a href="/firework">Праздничный фейерверк</a></li>
-                </ul>
-                <ul>
-                        <li><a href="/places">Рестораны</a></li>
-                        <li><a href="/other_services">Оригинальные услуги</a></li>
-                        <li><a href="/author_services">Авторские услуги</a></li>
-                        <li><a href="/photo_places">Места для фотосессий</a></li>
-                        <li><a href="/style_wedding">Стилизованная свадьба</a></li>
-                        <li><a href="/advice">Советы молодоженам</a></li>
-                </ul>
-        <div class="footer-right">
-                <!-- <div class="serach-form ya-site-form ya-site-form_inited_no" onclick="return {'action':'http://localhost/search','arrow':false,'bg':'transparent','fontsize':12,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск at-event','suggest':true,'target':'_self','tld':'ru','type':3,'usebigdictionary':true,'searchid':2205509,'webopt':false,'websearch':false,'input_fg':'#000000','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск','input_placeholderColor':'#cccccc','input_borderColor':'#ffffff'}">
-                    <form action="http://yandex.ru/sitesearch" method="get" target="_self">
-                        <input type="hidden" name="searchid" value="2205509"/>
-                        <input type="hidden" name="l10n" value="ru"/>
-                        <input type="hidden" name="reqenc" value=""/>
-                        <input type="search" name="text" value=""/>
-                        <input type="submit" value="Найти" placeholder="Поиск"/>
-                    </form>
-                </div> -->
-                <div class="footer-social-btn">
-                        <a class="vk-btn" href="https://vk.com/at.event" target="_blank"></a>
-                        <a class="youtube-btn" href="https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA" target="_blank"></a>
-                        <a class="insta-btn" href="https://instagram.com/at.event/" target="_blank"></a>
-                </div>
-        </div>
-</div>
+<footer class="main-footer page-layout">
+    <div class="main-footer__left">
+        <h6>Свадебное агенство «Академия&nbsp;торжеств»<br>организация свадьбы в&nbspЧелябинске</h6>
+        <h4><a class="phone-link" href="tel:79823112892">+7(982) 311-28-92</a></h4>
+    </div>
+    <ul class="main-footer__links">
+        <li><a href="/at">Ведущие</a></li>
+        <li><a href="/artists">Артисты</a></li>
+        <li><a href="/auto">Прокат автомобилей</a></li>
+        <li><a href="/decorate">Оформление праздника</a></li>
+        <li><a href="/photo">Услуги фотографа/оператора</a></li>
+        <li><a href="/firework">Праздничный фейерверк</a></li>
+    </ul>
+    <ul class="main-footer__links">
+        <li><a href="/places">Рестораны</a></li>
+        <li><a href="/other_services">Оригинальные услуги</a></li>
+        <li><a href="/author_services">Авторские услуги</a></li>
+        <li><a href="/photo_places">Места для фотосессий</a></li>
+        <li><a href="/style_wedding">Стилизованная свадьба</a></li>
+        <li><a href="/advice">Советы молодоженам</a></li>
+    </ul>
+    <div class="main-footer__right">
+        <div class="socials main-footer__socials"><a class="socials__link socials__link_transparent socials__link_vk" href="https://vk.com/at.event" target="_blank"></a><a class="socials__link socials__link_transparent socials__link_youtube" href="https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA" target="_blank"></a><a class="socials__link socials__link_transparent socials__link_insta" href="https://instagram.com/at.event/" target="_blank"></a></div>
+    </div>
+</footer>

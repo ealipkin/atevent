@@ -1,93 +1,102 @@
 <main>
     <div class="page-layout">
-        <h1 class="h3">Ведущие мероприятий</h1>
+        <h1 class="h3">Ведущие на свадьбу Андрей и Татьяна</h1>
         <hr>
     </div>
-    <!--landing start-->
     <div class="landing">
-        <div class="landing-promo">
-            <div class="landing-promo__top-text cap-text"><span class="cap-text__cap text text_pink">Мы</span><span class="cap-text__text">ДУЭТ ВЕДУЩИХ ДЛЯ <br> ВАШЕГО ТОРЖЕСТВА </span></div>
-            <div class="landing-promo__mid-text"><span>МЫ УСЕРДНО </span><span class="text text_pink">РАБОТАЕМ </span><span>ЧТОБЫ ВЫ ОТДЫХАЛИ </span></div>
-            <div class="landing-promo__bottom cap-text cap-text_with-exclamation"><span class="cap-text__cap">МЫ</span><span class="cap-text__text"><span class="text text_white">ЗДЕСЬ ДЛЯ ТОГО, ЧТОБЫ СДЕЛАТЬ ВАШЕ </span><br><span class="text text_white">СОБЫТИЕ </span><span><strong>ЯРКИМ </strong></span><span class="text text_white">И </span><span><strong>НЕЗАБЫВАЕМЫМ</strong></span></span></div>
+        <div class="landing-promo landing-promo_style_2">
+            <div class="landing-promo__content">
+                <div class="landing-promo__title text text_pink">ЧТО ТАКОЕ СВАДЬБА?</div>
+                <p>#эмоции</p>
+                <p>#чувства</p>
+                <p>#улыбки</p>
+            </div>
+            <div class="landing-promo__bottom">ВСЕ ДОЛЖНО БЫТЬ БЕЗУПРЕЧНО!</div>
         </div>
-        <h3 class="landing__title tac page-layout">МЫ СКАЗАЛИ МНОГО РАЗ «МЫ»... <br> А ТЕПЕРЬ  КОРОТКО О ТОМ, <span class="text text_pink">ЧТО ЖДЕТ </span>ИМЕННО <span class="text text_pink">ВАС</span></h3>
-        <div class="landing-list page-layout">
+        <div class="landing-steps">
+            <div class="landing-steps__inner">
+                <div class="landing-steps__title">ПЯТЬ ШАГОВ К <br> НЕЗАБЫВАЕМОМУ ТОРЖЕСТВУ</div>
+                <div class="landing-steps__list numbered-list">
+                    <div class="numbered-list__item">
+                        <div class="numbered-list__number"><img src="img/icons/numbers/1.png"></div>
+                        <div class="numbered-list__content">позвонить и договориться о встрече<br><a class="text text_pink text_size_1" href="tel:89823112892">8 982 311 28 92</a></div>
+                    </div>
+                    <div class="numbered-list__item">
+                        <div class="numbered-list__number"><img src="img/icons/numbers/2.png"></div>
+                        <div class="numbered-list__content">знакомство на первой встрече; обсуждение концепции праздника; идеи по проведению торжества; заключение договора</div>
+                    </div>
+                    <div class="numbered-list__item">
+                        <div class="numbered-list__number"><img src="img/icons/numbers/3.png"></div>
+                        <div class="numbered-list__content">подготовка к мероприятию; <br> обсуждение ключевых моментов; <br> помощь в организации</div>
+                    </div>
+                    <div class="numbered-list__item">
+                        <div class="numbered-list__number"><img src="img/icons/numbers/4.png"></div>
+                        <div class="numbered-list__content">утверждение сценария; выезд на место проведения мероприятия (при необходимости)</div>
+                    </div>
+                    <div class="numbered-list__item">
+                        <div class="numbered-list__number"><img src="img/icons/numbers/5.png"></div>
+                        <div class="numbered-list__content">день свадьбы:<br>вы отдыхаете<br>мы <span class="text text_pink">#ДаримСчастливыеМоменты</span></div>
+                    </div>
+                </div>
+                <div class="landing-steps__bottom tac">
+                    <button class="popup-link btn btn_big" type="button" data-link="popup-callback">ОСТАВИТЬ ЗАЯВКУ</button>
+                </div>
+            </div>
+        </div>
+        <h3 class="landing__title tac page-layout"><span class="text text_pink">Мы поможем организовать СВАДЬБУ МЕЧТЫ </span></h3>
+        <div class="landing-list landing-list_fix-icon-size page-layout">
             <div class="landing-list__item">
                 <div class="landing-list__icon"><img src="/img/landings/list/2.png"></div>
-                <div class="landing-list__text">ИНТЕЛЛИГЕНТНЫХ ВЕДУЩИХ ПРИЯТНОЙ ВНЕШНОСТИ</div>
+                <div class="landing-list__text">ИНТЕЛЛИГЕНТНЫХ ВЕДУЩИХ ПРИЯТНОЙ ВНЕШНОСТИ С БОЛЬШИМ КОЛИЧЕСТВОМ ИНТЕРЕСНЫХ ИДЕЙ</div>
             </div>
             <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/3+.png"></div>
-                <div class="landing-list__text">КОМАНДА ПРОФЕССИОНАЛОВ</div>
+                <div class="landing-list__icon"><img src="/img/landings/list/05.png"></div>
+                <div class="landing-list__text">НЕ МЕНЕЕ СИМПАТИЧНЫЙ ДИДЖЕЙ С КАЧЕСТВЕННОЙ АППАРАТУРОЙ И ОГРОМНОЙ МЫЗЫКАЛЬНОЙ БАЗОЙ</div>
             </div>
             <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/5+.png"></div>
-                <div class="landing-list__text">УСПЕШНЫЙ ОПЫТ ПРОВЕДЕНИЯ МЕРОПРИЯТИЙ</div>
+                <div class="landing-list__icon"><img src="/img/landings/list/02.png"></div>
+                <div class="landing-list__text">АРТИСТЫ РАЗЛИЧНЫХ ЖАНРОВ</div>
             </div>
             <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/90.png"></div>
-                <div class="landing-list__text">ВАШИХ ГОСТЕЙ НЕ ВИДЕЛИ ПОДОБНОЙ ПРОГРАММЫ</div>
+                <div class="landing-list__icon"><img src="/img/landings/list/06.png"></div>
+                <div class="landing-list__text">ЖИВАЯ МУЗЫКА НА МЕРОПРИЯТИИ</div>
             </div>
             <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/100.png"></div>
-                <div class="landing-list__text">СООТВЕТСТВИЯ ВАШЕМУ МЕРОПРИЯТИЮ</div>
+                <div class="landing-list__icon"><img src="/img/landings/list/03.png"></div>
+                <div class="landing-list__text">ИНДИВИДУАЛЬНЫЙ ПОДХОД И УДОВЛЕТВОРЕНИЕ ПОЖЕЛАНИЙ КЛИЕНТА ПО ПРОВЕДЕНИЮ ТОРЖЕСТВА</div>
             </div>
             <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/5000+.png"></div>
-                <div class="landing-list__text">ДОВОЛЬНЫХ ГОСТЕЙ</div>
+                <div class="landing-list__icon"><img src="/img/landings/list/07.png"></div>
+                <div class="landing-list__text">СОВРЕМЕННЫЕ КОНКУРСЫ БЕЗ ПОШЛОСТИ, КОТОРЫЕ БУДУТ ИНТЕРЕСНЫ ЛЮДЯМ РАЗНОГО ПОКОЛЕНИЯ</div>
+            </div>
+            <div class="landing-list__item">
+                <div class="landing-list__icon"><img src="/img/landings/list/04.png"></div>
+                <div class="landing-list__text">СЮРПРИЗЫ ДЛЯ ГОСТЕЙ И ВИНОВНИКОВ ТОРЖЕСТВА</div>
+            </div>
+            <div class="landing-list__item">
+                <div class="landing-list__icon"><img src="/img/landings/list/08.png"></div>
+                <div class="landing-list__text">МНОЖЕСТВО ПОЗИТИВНЫХ ЭМОЦИЙ И ИСКРЕННИХ УЛЫБОК</div>
             </div>
         </div>
-        <div class="landing-promo-2">
-            <h3 class="landing__title tac">МЫ ПРОВОДИМ</h3>
-            <div class="landing-promo-2__benefits">
-                <div class="landing-promo-2__benefit-item"><img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon01.png">
-                    <div class="landing-promo-2__benefit-text">СВАДЕБНЫЕ ТОРЖЕСТВА</div>
+        <div class="landing-videos">
+            <h3 class="tac landing__title">ВАМ МАЛО ЭТОЙ ИНФОРМАЦИИ? <br> ТОГДА УЗНАЙТЕ БОЛЬШЕ О НАС, ПОСМОТРЕВ<br><span class="text text_white">ВИДЕО С НАМИ</span></h3>
+            <div class="landing-videos__wrap">
+                <div class="landing-videos__item">
+                    <iframe class="youtube-iframe landing-videos__video" src="https://www.youtube.com/embed/m5reUH_Dajo" allowfullscreen frameborder="0"></iframe>
                 </div>
-                <div class="landing-promo-2__benefit-item"><img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon02.png">
-                    <div class="landing-promo-2__benefit-text">ОФИЦИАЛЬНЫЕ МЕРОПРИЯТИЯ</div>
+                <div class="landing-videos__item">
+                    <iframe class="youtube-iframe landing-videos__video" src="https://www.youtube.com/embed/lSHBq3AAjCk" allowfullscreen frameborder="0"></iframe>
                 </div>
-                <div class="landing-promo-2__benefit-item"><img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon03.png">
-                    <div class="landing-promo-2__benefit-text">КОРПОРАТИВНЫЕ ВЕЧЕРА</div>
-                </div>
-                <div class="landing-promo-2__benefit-item"><img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon04.png">
-                    <div class="landing-promo-2__benefit-text">ДНИ РОЖДЕНИЯ И ЮБИЛЕИ</div>
-                </div>
-                <div class="landing-promo-2__benefit-item"><img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon05.png">
-                    <div class="landing-promo-2__benefit-text">ВЫПУСКНЫЕ ВЕЧЕРА</div>
+                <div class="landing-videos__item">
+                    <iframe class="youtube-iframe landing-videos__video" src="https://www.youtube.com/embed/0BOkBr8biGI" allowfullscreen frameborder="0"></iframe>
                 </div>
             </div>
-            <div class="landing-promo-2__info">
-                <div class="landing-promo-2__info-wrapper"><span>ВЫ МОЖЕТЕ ПОЗВОНИТЬ НАМ</span><br><span class="text text_pink landing-promo-2__phone">8 982 311 28 92</span><br><span>ИЛИ НАПИСАТЬ В ЛИЧНЫЕ СООБЩЕНИЯ</span><br>
-                    <button class="btn btn_big popup-link" type="button" data-link="popup-mail">ОТПРАВИТЬ СООБЩЕНИЕ</button>
-                </div>
-            </div>
+            <div class="landing-videos__bottom tac"><a class="btn btn_big" href="https://www.youtube.com/playlist?list=PLdakGrOtjc_ltR44YCoGiBo0LftX8h5BX" target="_blank">СМОТРЕТЬ ЕЩЕ</a></div>
         </div>
-        <h3 class="tac landing__title">ВАМ МАЛО ЭТОЙ ИНФОРМАЦИИ? <br> ТОГДА УЗНАЙТЕ БОЛЬШЕ О НАС, ПОСМОТРЕВ<br><span class="text text_pink">ВИДЕО С НАМИ</span></h3>
-        <!--.landing-videos
-        .landing-videos__wrap
-            .landing-videos__item
-                iframe(class="youtube-iframe", src="https://www.youtube.com/embed/0BOkBr8biGI", allowfullscreen, frameborder="0").landing-videos__video
-            .landing-videos__item
-                iframe(class="youtube-iframe", src="https://www.youtube.com/embed/S71YS6BQe7M", allowfullscreen, frameborder="0").landing-videos__video
-            .landing-videos__item
-                iframe(class="youtube-iframe", src="https://www.youtube.com/embed/2PljaZuQsug", allowfullscreen, frameborder="0").landing-videos__video
-        .landing-videos__bottom.tac
-            a(href="https://www.youtube.com/playlist?list=PLdakGrOtjc_ltR44YCoGiBo0LftX8h5BX", target="_blank").btn.btn_big СМОТРЕТЬ ЕЩЕ
-        
-        -->
         <div class="landing-mosaic">
             <h3 class="tac landing__title">НАШИ ФОТО</h3>
-            <div class="landing-mosaic__row mosaic">
-                <div><img src="/img/landings/mosaic/01.jpg"></div>
-                <div><img src="/img/landings/mosaic/02.jpg"></div>
-                <div><img src="/img/landings/mosaic/03.jpg"></div>
-                <div><img src="/img/landings/mosaic/04.jpg"></div>
-                <div><img src="/img/landings/mosaic/05.jpg"></div>
-                <div><img src="/img/landings/mosaic/06.jpg"></div>
-                <div><img src="/img/landings/mosaic/07.jpg"></div>
-                <div><img src="/img/landings/mosaic/08.jpg"></div>
-            </div>
-            <div class="landing-mosaic__footer"><a class="link link_pink" href="#" target="_blank">ЕЩЕ ФОТО</a></div>
+            <div class="landing-mosaic__row mosaic"><img src="/img/landings/collage-02.jpg"></div>
+            <div class="landing-mosaic__footer"><a class="link link_pink" href="https://vk.com/album-44900459_231340773" target="_blank">ЕЩЕ ФОТО</a></div>
         </div>
         <div class="price-promo">
             <div class="price-promo__wrap">
@@ -131,8 +140,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="price-promo__bottom tac"><a class="btn btn_big price-promo__btn" href="#">ПОДРОБНЕЕ</a>
-                        <p class="price-promo__text">НА ПРОВЕДЕНИЕ ЮБИЛЕЕВ <span class="text text_pink">ДЕЙСТВУЕТ </span>ПРИЯТНАЯ <span class="text text_pink">СКИДКА</span></p>
+                    <div class="price-promo__bottom tac"><a class="btn btn_big price-promo__btn" href="our-price">ПОДРОБНЕЕ</a>
+                        <p class="price-promo__text">НА ПРОВЕДЕНИЕ ЮБИЛЕЕВ <span class="text text_pink">ДЕЙСТВУЕТ </span>ПРИЯТНАЯ <span class="text text_pink">СКИДКА </span></p>
                     </div>
                 </div>
             </div>
@@ -183,48 +192,99 @@
         <div class="leading-faq page-layout">
             <div class="leading-faq-info hide-block" data-id="faq"><br>
                 <h4 class="tac">Часто задаваемые вопросы</h4>
-                <p>Наши клиенты всегда задают нам много вопросов, как о нашем стиле ведения праздников, так и о личной жизни. Мы решили составить ТОП самых популярных из них  и дать ответы, чтобы Вы имели представление, с кем имеете дело:</p>
+                <p>Наши клиенты всегда задают нам много вопросов, как о нашем стиле ведения праздников, так и о личной жизни. Мы решили составить ТОП самых популярных из них и дать ответы, чтобы у Вас было представление, с кем имеете дело:</p>
                 <ul>
                     <li>
-                        <h5>А Вы женаты?</h5>
+                        <h5>А вы женаты?</h5>
                         <p>Да, мы познакомились в далеком 2003 году. Целый год мы присматривались друг к другу, а потом наше общение переросло в высокие чувства, которые называются одним словом – любофффь. Семь долгих лет мы встречались, проверяли свои отношения и в 2011 году, наконец, связали себя узами брака! Теперь мы «счастливы вместе» и желаем всем того же.</p>
                     </li>
                     <li>
-                        <h5>Кто главный у Вас в дуэте?</h5>
-                        <p>И в творческом дуэте, и в семейном тандеме у нас полное равноправие. Все делается сообща, никто не тянет одеяло на себя. На праздниках вдвоем легче вести общение с гостями. Если они и вовсе неактивные, то можно и между собой поболтать</p>
+                        <h5>Кто главный у вас в дуэте?</h5>
+                        <p>И в творческом дуэте, и в семейном тандеме у нас полное равноправие. Все делается сообща, никто не тянет одеяло на себя. На праздниках вдвоем легче вести общение с гостями. Если они и вовсе неактивные, то можно и между собой поболтать:)</p>
                     </li>
                     <li>
-                        <h5>Пишете ли Вы сценарии и можно ли изменить что-нибудь в нем?</h5>
-                        <p>На каждое мероприятие (без исключений) составляется свой собственный уникальный сценарий. Да, безусловно, может повторяться порядок проведения или некоторые конкурсы, но все будет составлено исключительно по желанию заказчика! Каждый раз нам интересно придумывать что-нибудь новое, интересное, необычное. Хотите, чтобы на Вашем мероприятии было много сюрпризов и неожиданностей? Пожалуйста! Мы не расскажем Вам обо всех особенностях, а сохраним это в тайне. Или хотите, чтобы праздник начался с выноса торта? Без проблем! Словом, нет ничего невозможно – все Ваши желания будут исполнены</p>
+                        <h5>Играли ли вы в КВН?</h5>
+                        <p>Так случилось, что официально мы не были участниками ни одной команды КВН. Это одно из отличий от многих ведущих, которые после КВНовской карьеры пробуют себя в работе ведущего мероприятий. Мы же пошли другим путем: сохранили свои организаторские и актерские данные и теперь радуем клиентов и гостей нетривиальным, уместным юмором и хорошей импровизацией :)</p>
                     </li>
                     <li>
-                        <h5>Есть ли у Вас конкурсы, в которых оголяются гости и танцуют стриптиз?</h5>
-                        <p>Конкурсы есть, но мы их не проводим. В зале могут быть дети! Да и наша психика уже изрядно «расшатана», чтобы лицезреть такие представления Хотя за отдельную плату, мы готовы провести такое действие. Примерная стоимость 1,5 тыс.$. А еще лучше: пригласите профессиональных танцовщиков – это будет и дешевле, и красивее!</p>
+                        <h5>Пишете ли вы сценарии и можно ли изменить что-нибудь в них?</h5>
+                        <p>На каждое мероприятие (без исключений) составляется свой собственный уникальный сценарий. Да, безусловно, может повторяться порядок проведения или некоторые конкурсы, но все будет составлено исключительно по желанию заказчика! Каждый раз нам интересно придумывать что-нибудь новое, необычное. Хотите, чтобы на Вашем мероприятии было много сюрпризов и неожиданностей? Пожалуйста! Мы не расскажем Вам обо всех особенностях, а сохраним это в тайне. Или хотите, чтобы праздник начался с выноса торта? Без проблем! Словом, нет ничего невозможно – все Ваши желания будут исполнены!</p>
+                    </li>
+                    <li>
+                        <h5>Есть ли у вас конкурсы, в которых оголяются гости и танцуют стриптиз?</h5>
+                        <p>Конкурсы есть, но мы их не проводим. В зале могут быть дети! Да и наша психика уже изрядно «расшатана», чтобы лицезреть такие представления:) Хотя за отдельную плату мы готовы провести такое действие. Примерная стоимость 1,5 тыс.$. А еще лучше: пригласите профессиональных танцовщиков – это будет и дешевле, и красивее!</p>
+                    </li>
+                    <li>
+                        <h5>Заключаете ли вы договор?</h5>
+                        <p>Безусловно! В договоре будут прописаны основные моменты нашего сотрудничества и предоставляемые услуги. Для нас это уверенность, что мы с Вами нашли общий язык и теперь можем приступать к совместной подготовке к Вашему мероприятию. Для Вас - гарантия того, что праздник в надежных руках, и Вы с легкостью можете приступать к другим этапам подготовки.</p>
                     </li>
                     <li>
                         <h5>Кто отвечает за музыкальное сопровождение?</h5>
-                        <p>Дома за музыкальное настроение семьи и соседей отвечает Андрей. Причем необязательно, что соседи хотят слушать эту музыку В семейном автомобиле также Татьяне запрещено прикасаться к магнитоле. А вот на мероприятиях, пожалуйста! Правда, там есть третий человек - наш Dj Алексей. И вот уже он не разрешает ни Андрею, ни Татьяне вмешиваться в свою работу, т.к является главным по музыкальному сопровождению на наших мероприятиях.</p>
+                        <p>Дома за музыкальное настроение семьи и соседей отвечает Андрей. Причем необязательно, что соседи хотят слушать эту музыку:) В семейном автомобиле также Татьяне запрещено прикасаться к магнитоле. А вот на мероприятиях пожалуйста! Правда, там есть третий человек - наш звукорежиссер Алексей. И вот уже он не разрешает ни Андрею, ни Татьяне вмешиваться в свою работу, т.к является главным по музыкальному сопровождению на наших мероприятиях:)</p>
                     </li>
                     <li>
-                        <h5>Включаете ли Вы в танцевальных паузах песни Сердючки и Стаса Михайлова?</h5>
-                        <p>Конечно! Безусловно! Без этого никуда! Но только по желанию заказчика или гостей Все музыкальные предпочтения клиента мы обговариваем заранее. И если нам поручено ни при каких обстоятельствах не ставить ту или иную мелодию, то охрана сработает вовремя и уведет от диджейского пульта «попрошаек». Если же Вам крайне важно услышать на своем празднике песни Гуфа или Rammstein – будет исполнено! Но придется уговорить еще нашего ди джея</p>
+                        <h5>Включаете ли вы в танцевальных паузах песни Верки Сердючки и Стаса Михайлова?</h5>
+                        <p>Конечно! Безусловно! Без этого никуда! Но только по желанию заказчика или гостей:) Все музыкальные предпочтения клиента мы обговариваем заранее. И если нам поручено ни при каких обстоятельствах не ставить ту или иную мелодию, то охрана сработает вовремя и уведет от диджейского пульта «попрошаек». Если же Вам крайне важно услышать на своем празднике песни Гуфа или Rammstein – будет исполнено! Но придется уговорить еще нашего ди джея:) Ну и без Грибов никуда! Слышали такую поговорку: если Грибов на свадьбе не включали, значит, брак не считается:)</p>
                     </li>
                     <li>
-                        <h5>Играете ли Вы на музыкальных инструментах, поете, танцуете?</h5>
-                        <p>Наши возможности безграничны. Мы можем сыграть на любых музыкальных инструментах: гитара, скрипка, баян, флейта, тромбон и даже нервы – все нам по плечу! Правда, делаем мы это не профессионально и вопиюще плохо. Также дело обстоит и с вокальными данными: спеть можем, но вряд ли это кому-то понравится А вот станцевать – это всегда пожалуйста! Наши танцевальные движения, похожие на конвульсии, безусловно, придадут Вашему торжеству обилие самых разных впечатлений</p>
+                        <h5>Играете ли вы на музыкальных инструментах, поете, танцуете?</h5>
+                        <p>Наши возможности безграничны. Мы можем сыграть на любых музыкальных инструментах: гитара, скрипка, баян, флейта, тромбон и даже нервы – все нам по плечу! Правда, делаем мы это непрофессионально и вопиюще плохо. Также дело обстоит и с вокальными данными: спеть можем, но вряд ли это кому-то понравится:) А вот станцевать – это всегда пожалуйста! Наши танцевальные движения, похожие на конвульсии, безусловно, придадут Вашему торжеству обилие самых разных впечатлений:)</p>
                     </li>
                     <li>
-                        <h5>Что еще Вы можете?</h5>
-                        <p>Мы можем все! По крайней мере, любые Ваши пожелания, даже самые необычные, мы всегда рады обсудить. Поэтому звоните  и мы обязательно найдем общий язык! Всем прекрасного настроения и удачной подготовки к празднику!</p>
+                        <h5>Что еще вы можете?</h5>
+                        <p>Мы можем все! По крайней мере, любые Ваши пожелания, даже самые необычные, мы всегда рады обсудить. Поэтому звоните и мы обязательно найдем общий язык! Всем прекрасного настроения и удачной подготовки к празднику!</p>
                     </li>
                 </ul>
             </div>
         </div><br>
         <div class="review-block page-layout">
             <h3 class="ta-c">Отзывы наших клиентов</h3>
+            <div class="review-slider slider">
+                <div class="review-speaker" data-id="01"><img class="review-avatar" src="/img/review/01.jpg" alt="">
+                    <h4 class="review-title">Екатерина</h4>
+                </div>
+                <div class="review-speaker" data-id="03"><img class="review-avatar" src="/img/review/05.jpg" alt="">
+                    <h4 class="review-title">Наталья</h4>
+                </div>
+                <div class="review-speaker" data-id="04"><img class="review-avatar" src="/img/review/03.jpg" alt="">
+                    <h4 class="review-title">Ксения</h4>
+                </div>
+                <div class="review-speaker" data-id="05"><img class="review-avatar" src="/img/review/04.jpg" alt="">
+                    <h4 class="review-title">Максим</h4>
+                </div>
+                <div class="review-speaker" data-id="06"><img class="review-avatar" src="/img/review/1.jpg" alt="">
+                    <h4 class="review-title">Евгений и Оксана</h4>
+                </div>
+                <div class="review-speaker" data-id="07"><img class="review-avatar" src="/img/review/2.jpg" alt="">
+                    <h4 class="review-title">Павел и Наталья</h4>
+                </div>
+                <div class="review-speaker" data-id="08"><img class="review-avatar" src="/img/review/3.jpg" alt="">
+                    <h4 class="review-title">Сергей и Полина</h4>
+                </div>
+                <div class="review-speaker" data-id="09"><img class="review-avatar" src="/img/review/4.jpg" alt="">
+                    <h4 class="review-title">Юлия, организатор Open Epil 2016</h4>
+                </div>
+                <div class="review-speaker" data-id="10"><img class="review-avatar" src="/img/review/5.jpg" alt="">
+                    <h4 class="review-title">Андрей и Елена</h4>
+                </div>
+                <div class="review-speaker" data-id="11"><img class="review-avatar" src="/img/review/6.jpg" alt="">
+                    <h4 class="review-title">Константин и Анжелика</h4>
+                </div>
+                <div class="review-speaker" data-id="12"><img class="review-avatar" src="/img/review/7.jpg" alt="">
+                    <h4 class="review-title">Михаил и Мария</h4>
+                </div>
+                <div class="review-speaker" data-id="13"><img class="review-avatar" src="/img/review/8.jpg" alt="">
+                    <h4 class="review-title">Ольга</h4>
+                </div>
+                <div class="review-speaker" data-id="14"><img class="review-avatar" src="/img/review/9.jpg" alt="">
+                    <h4 class="review-title">Роман и Александра</h4>
+                </div>
+                <div class="review-speaker" data-id="15"><img class="review-avatar" src="/img/review/10.jpg" alt="">
+                    <h4 class="review-title">Михаил и Анастасия</h4>
+                </div>
+            </div>
             <div class="review-text-block">
                 <p class="review-text" data-id="01">Самые креативные ребята! Спасибо за&nbsp;потрясающее и&nbsp;незабываемое проведение нашего торжества! Вы&nbsp;–&nbsp;суперские!</p>
-                <p class="review-text" data-id="02">Свадьба понравилась! Очень счастливы! Все очень хорошо! Свадьба прошла чудесно, несмотря ни&nbsp;на&nbsp;что! Вы&nbsp;просто молодцы!</p>
                 <p class="review-text" data-id="03">Дорогие друзья! Все в&nbsp;восторге от&nbsp;свадьбы, и огромную роль, конечно же, сыграли Андрей&nbsp;и&nbsp;Танюша! Вы - молодые, милые, внимательные, а&nbsp;главное - вы в&nbsp;теме.Я безумно рада знакомству с&nbsp;вами и&nbsp;даже не&nbsp;думала, что вы произведете на меня настолько хорошее впечатление! Друзья, всем советую Андрея&nbsp;и&nbsp;Таню.</p>
                 <p class="review-text" data-id="04">Нам понравилось все. Спасибо огромное! Было и весело и интересно. И&nbsp;даже в&nbsp;непредсказуемые моменты, вы&nbsp;могли найти выход!</p>
                 <p class="review-text" data-id="05">Ребята! Мы хотим сказать огромное спасибо! Вы классные!!! Вечер был просто потрясающим! Когда мы приехали уставшие с прогулки,  думали, что вечер будет потерян... Но когда увидели вас и ваш настрой, мы сразу оживились и появились силы! Мы вас любим!!! Вы круто все провели! Спасибо!!!</p>
@@ -239,22 +299,6 @@
                 <p class="review-text" data-id="14">Ребята просто молодцы! Каждый раз жду от них нового видео представления, и с каждым разом понимаю, что они просто МЕГА КРУТЫЕ. Столько в них эмоций, счастья и адреналина в крови, каждый раз придумывая все интереснее и интереснее программу. И выбирая ведущих на свадьбу или другое важное событие для вас и ваших близких вы не прогадаете, если выберите их))) Каждый день вспоминаю свою свадьбу и благодарна за такие приятные и запоминающиеся моменты, в восторге были ВСЕ) Вдвойне приятнее видеть в новых роликах, моменты своей свадьбы))) С ними очень приятно работать, они нашли подход ко всем гостям, скучно не было НИКОМУ))))</p>
                 <p class="review-text" data-id="15">Танечка и Андрей) Спасибо вам за проведение чудесной свадьбы) Вы сделали наш день ещё прекрасней))) все гости и мы в том числе были в восторге) Всем очень советуем крутых ведущих!</p>
             </div>
-            <div class="review-slider"><span class="review-speaker" data-id="01"><img class="review-avatar" src="/img/review/01.jpg" alt="">
-              <h4 class="review-title">Екатерина</h4></span><span class="review-speaker" data-id="02"><img class="review-avatar" src="/img/review/02.jpg" alt="">
-              <h4 class="review-title">Анна</h4></span><span class="review-speaker" data-id="03"><img class="review-avatar" src="/img/review/05.jpg" alt="">
-              <h4 class="review-title">Наталья</h4></span><span class="review-speaker review-speaker--active" data-id="04"><img class="review-avatar" src="/img/review/03.jpg" alt="">
-              <h4 class="review-title">Ксения</h4></span><span class="review-speaker" data-id="05"><img class="review-avatar" src="/img/review/04.jpg" alt="">
-              <h4 class="review-title">Максим</h4></span><span class="review-speaker" data-id="06"><img class="review-avatar" src="/img/review/1.jpg" alt="">
-              <h4 class="review-title">Евгений и Оксана</h4></span><span class="review-speaker" data-id="07"><img class="review-avatar" src="/img/review/2.jpg" alt="">
-              <h4 class="review-title">Павел и Наталья</h4></span><span class="review-speaker" data-id="08"><img class="review-avatar" src="/img/review/3.jpg" alt="">
-              <h4 class="review-title">Сергей и Полина</h4></span><span class="review-speaker" data-id="09"><img class="review-avatar" src="/img/review/4.jpg" alt="">
-              <h4 class="review-title">Юлия, организатор Open Epil 2016</h4></span><span class="review-speaker" data-id="10"><img class="review-avatar" src="/img/review/5.jpg" alt="">
-              <h4 class="review-title">Андрей и Елена</h4></span><span class="review-speaker" data-id="11"><img class="review-avatar" src="/img/review/6.jpg" alt="">
-              <h4 class="review-title">Константин и Анжелика</h4></span><span class="review-speaker" data-id="12"><img class="review-avatar" src="/img/review/7.jpg" alt="">
-              <h4 class="review-title">Михаил и Мария</h4></span><span class="review-speaker" data-id="13"><img class="review-avatar" src="/img/review/8.jpg" alt="">
-              <h4 class="review-title">Ольга</h4></span><span class="review-speaker" data-id="14"><img class="review-avatar" src="/img/review/9.jpg" alt="">
-              <h4 class="review-title">Роман и Александра</h4></span><span class="review-speaker" data-id="15"><img class="review-avatar" src="/img/review/10.jpg" alt="">
-              <h4 class="review-title">Михаил и Анастасия </h4></span></div>
         </div><br>
         <div class="landing-send-us page-layout">
             <p>ОСТАЛИСЬ ВОПРОСЫ?</p>
@@ -265,7 +309,7 @@
             </div>
         </div><br>
         <div class="page-layout">
-            <h3><a class="dashed-link" href="#first" onclick="showHide('first');">Лучшие ведущие для ваших праздников</a></h3>
+            <h3><a class="dashed-link" href="#first" onclick="showHide('first');"><span>Лучшие ведущие для ваших праздников</span></a></h3>
             <div id="first" style="display:none;">
                 <p>Праздник – это такое мероприятие, которое по природе своей должно стать запоминающимся, ярким. Впечатления – самое главное, вне зависимости от того, о каком именно торжестве идет речь. Организаторам всегда хватает хлопот – ведь нужно подготовить и территорию, и угощения. А между тем, нельзя забывать и о культурной программе. Именно она обеспечивает:</p>
                 <ul class="ul">
@@ -273,10 +317,10 @@
                     <li>Саму организацию мероприятия, его структуру,</li>
                     <li>Те самые впечатления, которые необходимы всем.</li>
                 </ul>
-                <p>Обеспечить все это и многое другое могут ведущие праздников в Челябинске, их опыт и креативный подход, понимание аудитории и специфики мероприятия позволит с успехом добиться этого. На основных организаторов торжеств и без того приходится немало хлопот, и к тому же, в большинстве случаев они тоже не отказались бы отдохнуть на празднике, а ведь его проведение – это тоже работа, и притом далеко не самая простая. </p>
+                <p>Обеспечить все это и многое другое могут ведущие праздников в Челябинске, их опыт и креативный подход, понимание аудитории и специфики мероприятия позволит с успехом добиться этого. На основных организаторов торжеств и без того приходится немало хлопот, и к тому же, в большинстве случаев они тоже не отказались бы отдохнуть на празднике, а ведь его проведение – это тоже работа, и притом далеко не самая простая.</p>
                 <h3>Профессионализм решает все!</h3>
-                <p>Если вами выбран достойный ведущий на корпоратив, то праздник никогда не превратится в спонтанное застолье с неприятными подробностями, мероприятие не нарушит взаимоотношений в коллективе и не подорвет дисциплину. Если вами выбран ведущий на юбилей, способный полноценно справляться со своими задачами, то праздник запомнится людям на годы, будут обеспечены конкурсы и танцы, и многое другое – по желанию заказчика. Культурная программа всегда подбирается и прорабатывается индивидуально, что позволяет сделать ее интересной для всех. </p>
-                <p>Креативный и веселый ведущий на праздник – это настоящая находка, и залог полноценного веселья, удавшегося мероприятия. Делая выбор в пользу профессионального подхода в таком вопросе, вы дарите счастье и массу приятных впечатлений всем участникам события, избавляете себя от лишних хлопот, гарантируете порядок, вовлечение в празднование всех собравшихся. Это ваш главный вклад в отдых, который окажется на практике бесценным. А между тем, ведущий мероприятий может быть приглашен и без лишних затрат, сегодня вы можете получить такие услуги и их достойного исполнителя без переплат, на простых и выгодных основаниях. Работа с публикой, особенно с широкой аудиторией в несколько десятков человек и более – это настоящее искусство, и вы сможете воочию оценить его, воспользовавшись возможностью пригласить активного, жизнерадостного человека, который станет вам главным помощником и залогом веселого отдыха ваших гостей! </p>
+                <p>Если вами выбран достойный ведущий на корпоратив, то праздник никогда не превратится в спонтанное застолье с неприятными подробностями, мероприятие не нарушит взаимоотношений в коллективе и не подорвет дисциплину. Если вами выбран ведущий на юбилей, способный полноценно справляться со своими задачами, то праздник запомнится людям на годы, будут обеспечены конкурсы и танцы, и многое другое – по желанию заказчика. Культурная программа всегда подбирается и прорабатывается индивидуально, что позволяет сделать ее интересной для всех.</p>
+                <p>Креативный и веселый ведущий на праздник – это настоящая находка, и залог полноценного веселья, удавшегося мероприятия. Делая выбор в пользу профессионального подхода в таком вопросе, вы дарите счастье и массу приятных впечатлений всем участникам события, избавляете себя от лишних хлопот, гарантируете порядок, вовлечение в празднование всех собравшихся. Это ваш главный вклад в отдых, который окажется на практике бесценным. А между тем, ведущий мероприятий может быть приглашен и без лишних затрат, сегодня вы можете получить такие услуги и их достойного исполнителя без переплат, на простых и выгодных основаниях. Работа с публикой, особенно с широкой аудиторией в несколько десятков человек и более – это настоящее искусство, и вы сможете воочию оценить его, воспользовавшись возможностью пригласить активного, жизнерадостного человека, который станет вам главным помощником и залогом веселого отдыха ваших гостей!</p>
             </div>
         </div>
     </div>

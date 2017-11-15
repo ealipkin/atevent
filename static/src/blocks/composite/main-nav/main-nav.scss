@@ -1,3 +1,113 @@
 .main-nav {
+  background: #fff;
+  display: none;
+  overflow: scroll;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
+  @include tablet() {
+    padding-bottom: 0;
+    padding-top: 15px;
+    display: block;
+  }
+
+  &_show {
+    display: block;
+  }
+
+  &__inner {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  &__item {
+    padding-right: 15px;
+
+    @include tablet() {
+      padding-right: 0;
+    }
+    @include laptop() {
+      padding: 0;
+    }
+  }
+
+  &__link {
+    display: block;
+    margin: 5px auto 0;
+    
+    &_active {
+      text-decoration: none;
+      color: #00c08c;
+      opacity: 1;
+      cursor: default;
+
+      &:hover {
+        color: #00c08c;
+      }
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s 0.06s ease;
+
+    @include laptop() {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+  &__item:hover &__image {
+    box-shadow: inset 0 0 20px rgba(255, 52, 104, 0.5);
+    opacity: 1;
+  }
+
+  &__link_active &__image {
+    box-shadow: inset 0 0 20px rgba(255, 52, 104, 0.5);
+    opacity: 1;
+  }
+}
+
+.main-menu-artists {
+  background-image: url(../img/menu/artists.png);
+}
+
+.main-menu-lead {
+  background-image: url(../img/menu/lead.png);
+}
+
+.main-menu-auto {
+  background-image: url(../img/menu/auto.png);
+}
+
+.main-menu-decorate {
+  background-image: url(../img/menu/decorate.png);
+}
+
+.main-menu-photo {
+  background-image: url(../img/menu/photo.png);
+}
+
+.main-menu-cakes {
+  background-image: url(../img/menu/cakes.jpg);
+}
+
+.main-menu-firework {
+  background-image: url(../img/menu/firework.png);
+}
+
+.main-menu-restaraunts {
+  background-image: url(../img/menu/restaurant.png);
+}
+
+.main-menu-another {
+  background-image: url(../img/menu/another.png);
 }

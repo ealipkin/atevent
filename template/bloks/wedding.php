@@ -1,68 +1,83 @@
 <main>
     <div class="page-layout">
-        <h1 class="h3">Ведущие мероприятий Андрей и Татьяна</h1>
+        <h1 class="h3">Ведущие на свадьбу Андрей и Татьяна</h1>
         <hr>
     </div>
+    
     <div class="landing">
-        <div class="landing-promo">
-            <div class="landing-promo__top-text cap-text"><span class="cap-text__cap text text_pink">Мы</span><span class="cap-text__text">ДУЭТ ВЕДУЩИХ ДЛЯ <br> ВАШЕГО ТОРЖЕСТВА</span></div>
-            <div class="landing-promo__mid-text"><span>МЫ УСЕРДНО </span><span class="text text_pink">РАБОТАЕМ </span><span>ЧТОБЫ ВЫ ОТДЫХАЛИ</span></div>
-            <div class="landing-promo__bottom cap-text cap-text_with-exclamation"><span class="cap-text__cap">МЫ</span><span class="cap-text__text"><span class="text text_white">ЗДЕСЬ ДЛЯ ТОГО, ЧТОБЫ СДЕЛАТЬ ВАШЕ</span><br><span class="text text_white">СОБЫТИЕ </span><span><strong>ЯРКИМ </strong></span><span class="text text_white">И </span><span><strong>НЕЗАБЫВАЕМЫМ</strong></span></span></div>
+        <div class="landing-promo landing-promo_style_2">
+            <div class="landing-promo__content">
+                <div class="landing-promo__title text text_pink">ЧТО ТАКОЕ СВАДЬБА?</div>
+                <div>
+                    <p>#эмоции</p>
+                    <p>#чувства</p>
+                    <p>#улыбки</p>
+                </div>
+            </div>
+            <div class="landing-promo__bottom">ВСЕ ДОЛЖНО БЫТЬ БЕЗУПРЕЧНО!</div>
         </div>
-        <h3 class="landing__title tac page-layout">МЫ СКАЗАЛИ МНОГО РАЗ «МЫ»... <br> А ТЕПЕРЬ  КОРОТКО О ТОМ,<span class="text text_pink">ЧТО ЖДЕТ </span>ИМЕННО <span class="text text_pink">ВАС</span></h3>
-        <div class="landing-list page-layout">
+        <h3 class="landing__title tac page-layout"><span class="text">МЫ ПОМОЖЕМ ОРГАНИЗОВАТЬ </span><span class="text_pink">СВАДЬБУ МЕЧТЫ </span></h3>
+        <div class="landing-list landing-list_fix-icon-size page-layout">
             <div class="landing-list__item">
                 <div class="landing-list__icon"><img src="/img/landings/list/2.png"></div>
-                <div class="landing-list__text">ИНТЕЛЛИГЕНТНЫХ ВЕДУЩИХ ПРИЯТНОЙ ВНЕШНОСТИ</div>
+                <div class="landing-list__text">ИНТЕЛЛИГЕНТНЫХ ВЕДУЩИХ ПРИЯТНОЙ ВНЕШНОСТИ С БОЛЬШИМ КОЛИЧЕСТВОМ ИНТЕРЕСНЫХ ИДЕЙ</div>
             </div>
             <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/3+.png"></div>
-                <div class="landing-list__text">КОМАНДА ПРОФЕССИОНАЛОВ</div>
+                <div class="landing-list__icon"><img src="/img/landings/list/05.png"></div>
+                <div class="landing-list__text">НЕ МЕНЕЕ СИМПАТИЧНЫЙ ДИДЖЕЙ С КАЧЕСТВЕННОЙ АППАРАТУРОЙ И ОГРОМНОЙ МЫЗЫКАЛЬНОЙ БАЗОЙ</div>
             </div>
             <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/5+.png"></div>
-                <div class="landing-list__text">УСПЕШНЫЙ ОПЫТ ПРОВЕДЕНИЯ МЕРОПРИЯТИЙ</div>
+                <div class="landing-list__icon"><img src="/img/landings/list/02.png"></div>
+                <div class="landing-list__text">АРТИСТЫ РАЗЛИЧНЫХ ЖАНРОВ</div>
             </div>
             <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/90.png"></div>
-                <div class="landing-list__text">ВАШИХ ГОСТЕЙ НЕ ВИДЕЛИ ПОДОБНОЙ ПРОГРАММЫ</div>
+                <div class="landing-list__icon"><img src="/img/landings/list/06.png"></div>
+                <div class="landing-list__text">ЖИВАЯ МУЗЫКА НА МЕРОПРИЯТИИ</div>
             </div>
             <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/100.png"></div>
-                <div class="landing-list__text">СООТВЕТСТВИЯ ВАШЕМУ МЕРОПРИЯТИЮ</div>
+                <div class="landing-list__icon"><img src="/img/landings/list/03.png"></div>
+                <div class="landing-list__text">ИНДИВИДУАЛЬНЫЙ ПОДХОД И УДОВЛЕТВОРЕНИЕ ПОЖЕЛАНИЙ КЛИЕНТА ПО ПРОВЕДЕНИЮ ТОРЖЕСТВА</div>
             </div>
             <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/5000+.png"></div>
-                <div class="landing-list__text">ДОВОЛЬНЫХ ГОСТЕЙ</div>
+                <div class="landing-list__icon"><img src="/img/landings/list/07.png"></div>
+                <div class="landing-list__text">СОВРЕМЕННЫЕ КОНКУРСЫ БЕЗ ПОШЛОСТИ, КОТОРЫЕ БУДУТ ИНТЕРЕСНЫ ЛЮДЯМ РАЗНОГО ПОКОЛЕНИЯ</div>
+            </div>
+            <div class="landing-list__item">
+                <div class="landing-list__icon"><img src="/img/landings/list/04.png"></div>
+                <div class="landing-list__text">СЮРПРИЗЫ ДЛЯ ГОСТЕЙ И ВИНОВНИКОВ ТОРЖЕСТВА</div>
+            </div>
+            <div class="landing-list__item">
+                <div class="landing-list__icon"><img src="/img/landings/list/08.png"></div>
+                <div class="landing-list__text">МНОЖЕСТВО ПОЗИТИВНЫХ ЭМОЦИЙ И ИСКРЕННИХ УЛЫБОК</div>
             </div>
         </div>
-        <div class="landing-promo-2">
-            <h3 class="landing__title tac">МЫ ПРОВОДИМ</h3>
-            <div class="landing-promo-2__benefits">
-                <div>
-                    <a class="landing-promo-2__benefit-item" href="wedding.php">
-                        <img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon01.png">
-                        <div class="landing-promo-2__benefit-text">СВАДЕБНЫЕ ТОРЖЕСТВА</div></a></div>
-                <div>
-                    <a class="landing-promo-2__benefit-item" href="we-perform-official">
-                        <img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon02.png">
-                        <div class="landing-promo-2__benefit-text">ОФИЦИАЛЬНЫЕ МЕРОПРИЯТИЯ</div></a></div>
-                <div>
-                    <a class="landing-promo-2__benefit-item" href="we-perform-corporate">
-                        <img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon03.png">
-                        <div class="landing-promo-2__benefit-text">КОРПОРАТИВНЫЕ ВЕЧЕРА</div></a></div>
-                <div>
-                    <a class="landing-promo-2__benefit-item" href="we-perform-birthday">
-                        <img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon04.png">
-                        <div class="landing-promo-2__benefit-text">ДНИ РОЖДЕНИЯ И ЮБИЛЕИ</div></a></div>
-                <div>
-                    <a class="landing-promo-2__benefit-item" href="we-perform-graduation">
-                        <img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon05.png">
-                        <div class="landing-promo-2__benefit-text">ВЫПУСКНЫЕ ВЕЧЕРА</div></a></div>
-            </div>
-            <div class="landing-promo-2__info">
-                <div class="landing-promo-2__info-wrapper"><span>ВЫ МОЖЕТЕ ПОЗВОНИТЬ НАМ</span><br><a class="text text_pink landing-promo-2__phone" href="tel:89823112892">8 982 311 28 92</a><br><span>ИЛИ НАПИСАТЬ В ЛИЧНЫЕ СООБЩЕНИЯ</span><br>
-                    <button class="btn btn_big popup-link" type="button" data-link="popup-mail">ОТПРАВИТЬ СООБЩЕНИЕ</button>
+        <div class="landing-steps">
+            <div class="landing-steps__inner">
+                <div class="landing-steps__title">ПЯТЬ ШАГОВ К&nbsp;НЕЗАБЫВАЕМОМУ ТОРЖЕСТВУ</div>
+                <div class="landing-steps__list numbered-list">
+                    <div class="numbered-list__item">
+                        <div class="numbered-list__number"><img src="img/icons/numbers/1.png"></div>
+                        <div class="numbered-list__content">позвонить и договориться о встрече<br><a class="text text_pink text_size_1" href="tel:89823112892">8 982 311 28 92</a></div>
+                    </div>
+                    <div class="numbered-list__item">
+                        <div class="numbered-list__number"><img src="img/icons/numbers/2.png"></div>
+                        <div class="numbered-list__content">знакомство на первой встрече; обсуждение концепции праздника; идеи по проведению торжества; заключение договора</div>
+                    </div>
+                    <div class="numbered-list__item">
+                        <div class="numbered-list__number"><img src="img/icons/numbers/3.png"></div>
+                        <div class="numbered-list__content">подготовка к мероприятию; <br> обсуждение ключевых моментов; <br> помощь в организации</div>
+                    </div>
+                    <div class="numbered-list__item">
+                        <div class="numbered-list__number"><img src="img/icons/numbers/4.png"></div>
+                        <div class="numbered-list__content">утверждение сценария; выезд на место проведения мероприятия (при необходимости)</div>
+                    </div>
+                    <div class="numbered-list__item">
+                        <div class="numbered-list__number"><img src="img/icons/numbers/5.png"></div>
+                        <div class="numbered-list__content">день свадьбы:<br>вы отдыхаете<br>мы <span class="text text_pink">#ДаримСчастливыеМоменты</span></div>
+                    </div>
+                </div>
+                <div class="landing-steps__bottom tac">
+                    <button class="popup-link btn btn_big" type="button" data-link="popup-callback">ОСТАВИТЬ ЗАЯВКУ</button>
                 </div>
             </div>
         </div>
@@ -83,12 +98,8 @@
         </div>
         <div class="landing-mosaic">
             <h3 class="tac landing__title">НАШИ ФОТО</h3>
-            <div class="landing-mosaic__row">
-                <img src="/img/landings/collage.jpg">
-            </div>
-            <div class="landing-mosaic__footer">
-                <a class="link link_pink" href="https://vk.com/album-44900459_231340773" target="_blank">ЕЩЕ ФОТО</a>
-            </div>
+            <div class="landing-mosaic__row mosaic"><img src="/img/landings/collage-02.jpg"></div>
+            <div class="landing-mosaic__footer"><a class="link link_pink" href="https://vk.com/album-44900459_231340773" target="_blank">ЕЩЕ ФОТО</a></div>
         </div>
         <div class="price-promo">
             <div class="price-promo__wrap">
@@ -97,43 +108,37 @@
                     <div class="price-promo__list">
                         <div class="price-promo__item">
                             <div class="price-promo__img"><img src="/img/landings/price-promo/icon01.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>Econom</span>
+                            <div class="price-promo__info"><a class="link link_pink" href="#">Econom</a>
                                 <p>16 000 р.</p>
                             </div>
                         </div>
                         <div class="price-promo__item">
                             <div class="price-promo__img"><img src="/img/landings/price-promo/icon02.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>Standard</span>
+                            <div class="price-promo__info"><a class="link link_pink" href="#">Standard</a>
                                 <p>23 000 р.</p>
                             </div>
                         </div>
                         <div class="price-promo__item">
                             <div class="price-promo__img"><img src="/img/landings/price-promo/icon03.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>Wedding Battle</span>
+                            <div class="price-promo__info"><a class="link link_pink" href="#">Wedding Battle</a>
                                 <p>29 000 р.</p>
                             </div>
                         </div>
                         <div class="price-promo__item">
                             <div class="price-promo__img"><img src="/img/landings/price-promo/icon04.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>Big Show</span>
+                            <div class="price-promo__info"><a class="link link_pink" href="#">Big Show</a>
                                 <p>45 000 р.</p>
                             </div>
                         </div>
                         <div class="price-promo__item">
                             <div class="price-promo__img"><img src="/img/landings/price-promo/icon05.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>Live Sound</span>
+                            <div class="price-promo__info"><a class="link link_pink" href="#">Live Sound</a>
                                 <p>60 000 р.</p>
                             </div>
                         </div>
                         <div class="price-promo__item">
                             <div class="price-promo__img"><img src="/img/landings/price-promo/icon06.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>All Inclusive</span>
+                            <div class="price-promo__info"><a class="link link_pink" href="#">All Inclusive</a>
                                 <p>80 000 р.</p>
                             </div>
                         </div>
@@ -307,18 +312,18 @@
             </div>
         </div><br>
         <div class="page-layout">
-            <h3><a class="dashed-link" href="#first" onclick="showHide('first');"><span>Лучшие ведущие для ваших праздников</span></a></h3>
+            <h3><a class="dashed-link" href="#first" onclick="showHide('first');"><span>Профессиональный ведущий на свадьбу</span></a></h3>
             <div id="first" style="display:none;">
-                <p>Праздник – это такое мероприятие, которое по природе своей должно стать запоминающимся, ярким. Впечатления – самое главное, вне зависимости от того, о каком именно торжестве идет речь. Организаторам всегда хватает хлопот – ведь нужно подготовить и территорию, и угощения. А между тем, нельзя забывать и о культурной программе. Именно она обеспечивает:</p>
+                <p>Свадьба – это особое мероприятие, которое должно остаться в памяти новобрачных и их окружения на всю жизнь. Соответствующей должна быть и организация такого праздника - ведущий на свадьбу потребуется в обязательном порядке. Ведь именно он сможет организовать гостей, исключить множество неприятностей, создать именно ту обстановку, которая окажется наиболее подходящей и приятной для всех. Среди задач, которые решает данный специалист, стоит отметить в первую очередь такие:</p>
                 <ul class="ul">
-                    <li>Постоянный интерес аудитории,</li>
-                    <li>Саму организацию мероприятия, его структуру,</li>
-                    <li>Те самые впечатления, которые необходимы всем.</li>
+                    <li>Вовлечение в активное празднование всех присутствующих,</li>
+                    <li>Проведение свадьбы по всем правилам и традициям, </li>
+                    <li>Исключение нештатных ситуаций.</li>
                 </ul>
-                <p>Обеспечить все это и многое другое могут ведущие праздников в Челябинске, их опыт и креативный подход, понимание аудитории и специфики мероприятия позволит с успехом добиться этого. На основных организаторов торжеств и без того приходится немало хлопот, и к тому же, в большинстве случаев они тоже не отказались бы отдохнуть на празднике, а ведь его проведение – это тоже работа, и притом далеко не самая простая.</p>
-                <h3>Профессионализм решает все!</h3>
-                <p>Если вами выбран достойный ведущий на корпоратив, то праздник никогда не превратится в спонтанное застолье с неприятными подробностями, мероприятие не нарушит взаимоотношений в коллективе и не подорвет дисциплину. Если вами выбран ведущий на юбилей, способный полноценно справляться со своими задачами, то праздник запомнится людям на годы, будут обеспечены конкурсы и танцы, и многое другое – по желанию заказчика. Культурная программа всегда подбирается и прорабатывается индивидуально, что позволяет сделать ее интересной для всех.</p>
-                <p>Креативный и веселый ведущий на праздник – это настоящая находка, и залог полноценного веселья, удавшегося мероприятия. Делая выбор в пользу профессионального подхода в таком вопросе, вы дарите счастье и массу приятных впечатлений всем участникам события, избавляете себя от лишних хлопот, гарантируете порядок, вовлечение в празднование всех собравшихся. Это ваш главный вклад в отдых, который окажется на практике бесценным. А между тем, ведущий мероприятий может быть приглашен и без лишних затрат, сегодня вы можете получить такие услуги и их достойного исполнителя без переплат, на простых и выгодных основаниях. Работа с публикой, особенно с широкой аудиторией в несколько десятков человек и более – это настоящее искусство, и вы сможете воочию оценить его, воспользовавшись возможностью пригласить активного, жизнерадостного человека, который станет вам главным помощником и залогом веселого отдыха ваших гостей!</p>
+                <p>От <a href="/weddingbattle.php" title="тамада челябинск">тамады</a> зависит многое, и потому свадебные ведущие в Челябинске, которые оказывают свои услуги по-настоящему профессионально, всегда оказываются востребованными, и их приглашают на все крупные торжества. Ведь профессионально организованная свадьба действительно оставит у всех приятные впечатления на много лет, запомнится, а еще она станет поводом для гордости брачующихся и их родственников, позволит выделиться перед окружающими. Грамотно и ярко проведенный праздник – это не просто приятная, это статусная вещь.</p>
+                <p>Помощь – необходима!</p>
+                <p>Давно прошли те времена, когда свадьбы проводились своими силами – сегодня свадебный ведущий приглашается на любую из них. Ведь на самих виновников торжества и их окружение и без того ложится масса хлопот по организации мероприятия, и к праздничному дню они порой остаются без сил, и сами хотели бы отдохнуть. И это вполне закономерно, ведь главное внимание и все условия для приятного отдыха, веселья должны быть в первую очередь у самих виновников, а если они будут включаться во все заботы, свадьба так и запомнится им одним из самых тяжелых дней в жизни.</p>
+                <p>Услуги тамады позволяют исключить все эти заботы и переживания, и просто наслаждаться праздником, проработанным по индивидуальной программе, согласно вкусам и предпочтениям заказчиков. Профессионал в любом случае подойдет к вопросу креативно, а если в этом будет необходимость – подкорректирует сценарий по ходу событий. С опытным и грамотным тамадой все гости получат свою долю внимания и приятных впечатлений, а любые проблемные моменты и взаимные непонимания будут исключены. Праздник пройдет весело и без хлопот, став важнейшей вехой в начале счастливой семейной жизни любящей пары, и никто не почувствует себя обделенным или уставшим.</p>
             </div>
         </div>
     </div>

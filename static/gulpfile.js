@@ -35,7 +35,27 @@ let isProd = false;
 //Таск работает долго из-за оптимизации изображений, для быстрой сборки использовать static
 gulp.task('prod', function() {
   isProd = true;
-  runSequence('images-copy', 'fonts', 'css', 'css-minify', 'js', 'js-uglify', 'pug', function() {
+  runSequence('images-copy', 'fonts', 'css', 'css-minify', 'js', 'js-uglify', 'buster', 'pug', function() {
+    console.log('static build success in production mode');
+  });
+});
+gulp.task('prod:css-js', function() {
+  isProd = true;
+  runSequence('css', 'css-minify', 'js', 'js-uglify', function() {
+    console.log('static build success in production mode');
+  });
+});
+
+gulp.task('prod:only-js', function() {
+  isProd = true;
+  runSequence('js', 'js-uglify', 'buster', function() {
+    console.log('static build success in production mode');
+  });
+});
+
+gulp.task('prod:only-css', function() {
+  isProd = true;
+  runSequence('css', 'css-minify', 'buster', function() {
     console.log('static build success in production mode');
   });
 });
