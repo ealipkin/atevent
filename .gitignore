@@ -2,3 +2,6 @@
 /static/node_modules/
 /static/dest/
 /static/src/img/
+/static/src/js/_compiled
+/static/src/css/compiled
+/static/src/pug/_mixin.pug

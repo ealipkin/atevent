@@ -1,346 +1,357 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- created with www.majento.ru -->
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-	<loc>http://at-event.ru/</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>1.00</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/about</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/about</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/acc_fotozone</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/at</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/acc_renta</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/artists</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/acc_sweets</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/auto</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/acc_wedding</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/decorate</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/advice</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/photographs</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/artists</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/cakes</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/at</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/places</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/at-event.ru</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/other_services</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/author_services</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/wedding_dress</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/auto</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/firework</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/cakes</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/author_services</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/day_salut</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/photo_places</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/dec_auto</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/dec_hall</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=1</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/dec_reg</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/advice</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/decorate</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=2</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/fire_fountains</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=3</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/fire_sings</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=4</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/firework</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=5</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/flowers</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=6</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/fun</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=7</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/hair_makeup</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=8</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/man_outfit</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=9</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/original_service</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=10</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/other_services</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=11</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/photo</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/style_wedding?id=12</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/photo_places</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/man_outfit</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/photographs</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/hair_makeup</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/places</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/rings</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/polygraphy</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/salut</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/popup-open</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/fire_fountains</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/rings</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/fire_sings</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/salut</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/day_salut</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/souvenirs</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/tech_sound</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/tech_light</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=1</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/tech_video</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=10</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/tech_effects</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=11</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/fun</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=12</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/polygraphy</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=2</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/souvenirs</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=3</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/original_service</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=4</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/videographs</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=5</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/dec_hall</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=6</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/dec_auto</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=7</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/flowers</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=8</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/dec_reg</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/style_wedding?id=9</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/acc_wedding</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/tech_effects</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/acc_fotozone</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/tech_light</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/acc_sweets</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/tech_sound</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/acc_renta</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/tech_video</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/wedding</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/videographs</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/our-price</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/wedding.php</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/weddingbattle</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/wedding_dress</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/we-perform-official</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
-	<loc>http://at-event.ru/weddingbattle.php</loc>
-	<lastmod>2017-07-28T07:56:05+03:00</lastmod>
-	<priority>0.90</priority>
-	<changefreq>weekly</changefreq>
+<loc>http://at-event.ru/we-perform-corporate</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>http://at-event.ru/we-perform-birthday</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>http://at-event.ru/we-perform-graduation</loc>
+<lastmod>2018-01-16</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
 </url>
 </urlset>
