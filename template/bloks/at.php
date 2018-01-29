@@ -40,7 +40,7 @@
             <h3 class="landing__title tac">МЫ ПРОВОДИМ</h3>
             <div class="landing-promo-2__benefits">
                 <div>
-                    <a class="landing-promo-2__benefit-item" href="wedding.php">
+                    <a class="landing-promo-2__benefit-item" href="wedding">
                         <img class="landing-promo-2__benefit-icon" src="/img/landings/banner-2/icon01.png">
                         <div class="landing-promo-2__benefit-text">СВАДЕБНЫЕ ТОРЖЕСТВА</div></a></div>
                 <div>
@@ -90,60 +90,11 @@
                 <a class="link link_pink" href="https://vk.com/album-44900459_231340773" target="_blank">ЕЩЕ ФОТО</a>
             </div>
         </div>
-        <div class="price-promo">
-            <div class="price-promo__wrap">
-                <div class="price-promo__inner">
-                    <h3 class="tac landing__title">НАШИ ЦЕНЫ</h3>
-                    <div class="price-promo__list">
-                        <div class="price-promo__item">
-                            <div class="price-promo__img"><img src="/img/landings/price-promo/icon01.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>Econom</span>
-                                <p>16 000 р.</p>
-                            </div>
-                        </div>
-                        <div class="price-promo__item">
-                            <div class="price-promo__img"><img src="/img/landings/price-promo/icon02.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>Standard</span>
-                                <p>23 000 р.</p>
-                            </div>
-                        </div>
-                        <div class="price-promo__item">
-                            <div class="price-promo__img"><img src="/img/landings/price-promo/icon03.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>Wedding Battle</span>
-                                <p>29 000 р.</p>
-                            </div>
-                        </div>
-                        <div class="price-promo__item">
-                            <div class="price-promo__img"><img src="/img/landings/price-promo/icon04.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>Big Show</span>
-                                <p>45 000 р.</p>
-                            </div>
-                        </div>
-                        <div class="price-promo__item">
-                            <div class="price-promo__img"><img src="/img/landings/price-promo/icon05.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>Live Sound</span>
-                                <p>60 000 р.</p>
-                            </div>
-                        </div>
-                        <div class="price-promo__item">
-                            <div class="price-promo__img"><img src="/img/landings/price-promo/icon06.jpg"></div>
-                            <div class="price-promo__info">
-                                <span>All Inclusive</span>
-                                <p>80 000 р.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="price-promo__bottom tac"><a class="btn btn_big price-promo__btn" href="our-price">ПОДРОБНЕЕ</a>
-                        <p class="price-promo__text">НА ПРОВЕДЕНИЕ ЮБИЛЕЕВ <span class="text text_pink">ДЕЙСТВУЕТ </span>ПРИЯТНАЯ <span class="text text_pink">СКИДКА </span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        <?
+            require_once('single-blocks/price-promo.php');
+        ?>
+
         <div class="landing-about"><img src="/img/leader/info.jpg">
             <div class="landing-about__info page-layout">
                 <div class="landing-about__col">

@@ -9,7 +9,7 @@
 </div>
 <hr class="acc-hr" />
 <h4>
-        STANDARD - 23 тыс.руб.
+        STANDARD - 25 тыс.руб.
 </h4>
 <ul class="ul">
     <li>работа двух ведущих (6 часов)</li>
@@ -23,7 +23,7 @@
 </ul>
 <br>
 <h4>
-        ECONOM - 16 тыс.руб.
+        ECONOM - 18 тыс.руб.
 </h4>
 <p>
     Отличия от пакета STANDARD:
@@ -37,7 +37,7 @@
 <h4>
         WEDDING BATTLE
         <span class="text text_pink">(НОВИНКА!)</span>
-        - 29 тыс.руб.
+        - 30 тыс.руб.
 </h4>
 <ul class="ul">
     <li>работа двух ведущих (6 часов)</li>
@@ -49,11 +49,11 @@
 </ul>
 <p>
     Остались вопросы, что такое WEDDING BATTLE? Вся информация
-    <a href="/weddingbattle.php">здесь!</a>
+    <a href="/weddingbattle">здесь!</a>
 </p>
 <br>
 <h4>
-        BIG SHOW - 45 тыс.руб.
+        BIG SHOW - 48 тыс.руб.
 </h4>
 <p>
     Услуги, перечисленные в пакете STANDARD, а также:
@@ -65,7 +65,7 @@
 </ul>
 <br>
 <h4>
-        LIVE SOUND - 60 тыс.руб.
+        LIVE SOUND - 65 тыс.руб.
 </h4>
 <p>
     Услуги, перечисленные в пакете STANDARD, а также:
@@ -77,7 +77,7 @@
 </ul>
 <br>
 <h4>
-        ALL INCLUSIVE - 80 тыс.руб.
+        ALL INCLUSIVE - 90 тыс.руб.
 </h4>
 <p>
     Услуги, перечисленные в пакете BIG SHOW

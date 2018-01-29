@@ -1,5 +1,22 @@
 mixin main-footer()
     //popups
+    .popup__overlay.popup-callback
+        .popup
+            a.popup__close(href='') X
+            h4 Заказать обратный звонок
+            p
+                | Мы можем перезвонить в удобное для Вас время
+                br
+                |  и дать консультацию по любому вопросу!
+            form#form.popup-form(data-type='Форма обратного звонка в шапке сайта')
+                .form-preloader
+                input.f-name(type='text', placeholder='Введите ваше имя', name='Имя')
+                input.f-phone(type='text', placeholder='Введите ваш телефон', name='Телефон')
+                input.f-mail(type='text', placeholder='Адрес электронной почты', name='Почта')
+                input.f-time(type='text', placeholder='Время удобное для звонка', name='Время для звонка')
+                button.popup-callback-btn.button Отправить
+                .form-message(style='display: none;')
+
     .popup__overlay.popup-mail
         .popup
             a(href="#").popup__close X
@@ -52,10 +69,9 @@ mixin main-footer()
                 a(href='/style_wedding') Стилизованная свадьба
             li
                 a(href='/advice') Советы молодоженам
-                
+
         .main-footer__right
             .socials.main-footer__socials
                 a.socials__link.socials__link_transparent.socials__link_vk(href='https://vk.com/at.event', target='_blank')
                 a.socials__link.socials__link_transparent.socials__link_youtube(href='https://www.youtube.com/channel/UC676j7XaxvcC2cYz5Ghf6zA', target='_blank')
                 a.socials__link.socials__link_transparent.socials__link_insta(href='https://instagram.com/at.event/', target='_blank')
-    

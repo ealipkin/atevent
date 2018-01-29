@@ -50,21 +50,35 @@ function showHide(divId) {
     margins: 0,
     lastRow: 'justify',
   });
-  
+
   //old scripts
   $('a.grouped_elements').fancybox({
     maxHeight: '600',
     prevEffect: 'fade',
     nextEffect: 'fade',
     nextClick: true,
-    helpers: {title: {type: 'inside'}, thumbs: {width: 100, height: 50}}
+    helpers: {
+      title: {
+        type: 'inside'
+      },
+      thumbs: {
+        width: 100,
+        height: 50,
+      }
+    }
   });
   $('a.photo_group').fancybox({
     maxHeight: '600',
     prevEffect: 'fade',
     nextEffect: 'fade',
     nextClick: true,
-    helpers: {title: {type: 'inside'}, thumbs: {width: 100, height: 50}}
+    helpers: {
+      title: {type: 'inside'},
+      thumbs: {
+        width: 100,
+        height: 50,
+      },
+    }
   });
   $('.various').fancybox({
     maxWidth: 800,
@@ -77,7 +91,12 @@ function showHide(divId) {
     openEffect: 'none',
     closeEffect: 'none',
     padding: 0,
-    helpers: {thumbs: {width: 90, height: 70}},
+    helpers: {
+      thumbs: {
+        width: 90,
+        height: 70,
+      }
+    },
   });
   $('#slider').nivoSlider({
     effect: 'random',
@@ -95,15 +114,15 @@ function showHide(divId) {
     prevText: 'Prev',
     nextText: 'Next',
     randomStart: true,
-    afterLoad: function(e){
+    afterLoad: function(e) {
       $('#slider').addClass('nivoSlider-inited');
     }
   });
-  
+
   $('.nivoSlider a[href=popup-open]').click(function() {
     $('.popup-mail').show()
   });
-  
+
   $('.popup-link').click(function(e) {
     e.preventDefault();
     var $popup = $('.' + $(this).data('link'));
@@ -129,18 +148,18 @@ function showHide(divId) {
   });
   $('.toggle-hide-block').click(function(event) {
     event.preventDefault();
-    
+
     let $target = $(event.currentTarget);
     let id = $target.data('id');
     let currentPos = window.pageYOffset;
     let hideBlock;
-    
-    if(id) {
+
+    if (id) {
       hideBlock = $('.hide-block[data-id="' + id + '"]');
     } else {
       hideBlock = $(this).closest('div').find('.hide-block');
     }
-    
+
     if (hideBlock.is(':visible')) {
       hideBlock.slideUp();
       window.scrollTo(0, hideBlock.getBoundingClientRect().top - 20);
@@ -154,7 +173,7 @@ function showHide(divId) {
       currentPos = 0;
     });
   });
-  
+
   $('.hide-block').append('<a href="#"" class="turn-hide-block dashed-link">Свернуть</a>');
 
 
@@ -179,7 +198,7 @@ function showHide(divId) {
     asNavFor: '.review-slider',
     adaptiveHeight: true,
   });
-  
+
   $('.review-slider').slick({
     adaptiveHeight: true,
     asNavFor: '.review-text-block',
@@ -203,7 +222,7 @@ function showHide(divId) {
       }
     ]
   });
-  
+
   $('.landing-promo-2__benefits').slick({
     mobileFirst: true,
     slidesToShow: 1,
@@ -215,7 +234,7 @@ function showHide(divId) {
       },
     ],
   });
-  
+
   $('.price-promo__list').slick({
     mobileFirst: true,
     slidesToShow: 1,
@@ -227,7 +246,7 @@ function showHide(divId) {
       },
     ],
   });
-  
+
   $('.landing-sendform-btn').click(function(event) {
     event.preventDefault();
     var form = $(this).parent();

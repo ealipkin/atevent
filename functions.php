@@ -80,23 +80,23 @@ function getArtistTmpl($array,$count,$prize=0){
     		$id = $value['id'];
     		$path = $value['path'];
     		$avatar = getAvatar($id,1);
-    		
+
     		$hideClass = '';
 			$skip_id = '';
-    		
+
     		$arr_photo = db_query("SELECT * FROM `artists_photo` WHERE `artist_id` = ".$value['id']." AND `avatar` = 0 LIMIT 7");
-    		
+
     		if(!empty($value['type'])) $type = ', '.$value['type'];
     		else $type = '';
-    		
-    		
+
+
 			if(!empty($prize)){
 				//$medal = 'info-kind-avatar--medal info-kind-avatar--medal-photo';
 				$skip_id = 'data-skip="'.$prize.'"';
 			}
-    		
+
     		// if($key > 7){$hideClass = 'info-kind-hidden';}
-    		
+
     		$html .='
     		<div class="info-kind artist-block '.$hideClass.'" data-id="'.$count.'" id="artist-'.$id.'" '.$skip_id.'>
     			<a href="/'.$value['path'].$avatar['photo'].'" class="grouped_elements" rel="group'.$id.'" title="">
@@ -112,26 +112,26 @@ function getArtistTmpl($array,$count,$prize=0){
     				<p class="info-desc">'.$value['desc'].'</p>
     				<div class="add-info-thumbs">';
     		foreach ($arr_photo as $key => $value) {
-    
+
     			$html .='
     				<a href="/'.$path.$value['photo'].'" class="grouped_elements" rel="group'.$id.'" title="">
     					<img src="/'.$path.$value['photo_t'].'" width="82px" height="54px">
     				</a>
     			';
     		}
-    
-    
+
+
     		$html .='
     				</div>
     			</section>
     		</div>
     		';
-    
+
     	}
-		
-		
+
+
     }
-    
+
 	return $html;
 }
 
@@ -150,38 +150,38 @@ function getAutosTypeName($type_id) {
 function getAutoBlock($type_id=0, $prize_id=0) {
     $html = '';
     $list_length = count(getAutosType());
-    
+
     if(($type_id > 0) && ($type_id <= $list_length)){
         $list_type = getAutosTypeName($type_id);
-        
+
         if($prize_id>0){
             $array = db_query("SELECT * FROM `autos` WHERE `moderate` = 0 AND `type` = '".$list_type."' AND `id`='".$prize_id."' ORDER BY name ");
             if(!empty($array)){
                 $html .= getAutoTmpl($array);
             }
         }
-        
+
         $array = db_query("SELECT * FROM `autos` WHERE `moderate` = 0 AND `type` = '".$list_type."'  AND `id`<>'".$prize_id."' ORDER BY name ");
-        
+
         if(empty($array)){
             return false;
         }
-        
+
         $html .= getAutoTmpl($array);
     }
     else {
         if($prize_id>0){
             $array = db_query("SELECT * FROM `autos` WHERE `moderate` = 0 AND `id`='".$prize_id."' ORDER BY name ");
-            
+
             $html .= getAutoTmpl($array);
         }
-        
+
 	    $array = db_query("SELECT * FROM `autos` WHERE `moderate` = 0 AND `id`<>'".$prize_id."' ORDER BY `name` ");
-	    
+
         $html .= getAutoTmpl($array);
     }
 
-    
+
 
 	return $html;
 }
@@ -195,7 +195,7 @@ function getAutoTmpl($array) {
     		$path = $value['path'];
     		if(!empty($value['type']))	$type = ', '.$value['type'];
     		else $type = '';
-    
+
     		$html .='
     		<div class="info-kind artist-block" >
     	  		<img class="info-kind-avatar"  width="213px" height="216px" src="'.$path.$avatar['photo_t'].'" alt="">
@@ -211,25 +211,25 @@ function getAutoTmpl($array) {
     				<p class="info-desc">'.$value['desc'].'</p>
     				<div class="add-info-thumbs">';
     		foreach ($arr_photo as $key => $value) {
-    
+
     			$html .='
     				<a href="'.$path.$value['photo'].'" class="grouped_elements" rel="group'.$id.'" title="">
     					<img class="lazy" data-original="'.$path.$value['photo_t'].'" src="">
     				</a>
     			';
     		}
-    
-    
+
+
     		$html .='
     				</div>
     			</section>
     		</div>
     		';
     	}
-        
+
     }
     return $html;
-    
+
 }
 //Получаем фотки в дополнительном блоке
 function getPhotoInBlock($id,$type){
@@ -307,7 +307,7 @@ function getPhotographsTpl($array,$count,$prize=0) {
 			$avatar = getAvatar($value['id'],2);
 			$arr_photo = db_query("SELECT * FROM `photographs_photo` WHERE `phgrphs_id` = ".$value['id']." AND `avatar` = 0 LIMIT 7");
 			$skip_id = '';
-			
+
 			if(!empty($prize)){
 				$medal = 'info-kind-avatar--medal info-kind-avatar--medal-photo';
 				$skip_id = 'data-skip="'.$prize.'"';
@@ -448,7 +448,7 @@ function getVideographTpl($array,$count,$prize=0) {
 //Рестораны
 function getPlaceBlock($count=0, $count_next=7, $id=0){
 	// $count_next = $count+5;
-	
+
 	if(!empty($id)){
     	$data_array = db_query("SELECT * FROM `places` WHERE `moderate` = 0 AND `id` =".$id." ORDER BY name");
     	$html .= getPlaceTpl($data_array,$count,$id);
@@ -472,7 +472,7 @@ function getPlaceTpl($array,$count,$prize=0) {
     		$avatar = getAvatar($value['id'],5);
     		$arr_photo = db_query("SELECT * FROM `places_photo` WHERE `place_id` = ".$value['id']." AND `avatar` = 0 LIMIT 7");
     		$path = $value['path'];
-    
+
     		$html .='
     		<div class="info-kind artist-block" data-id="'.$count.'" id="place-'.$id.'">
     			<img class="info-kind-avatar"  width="213px" height="216px" src="'.$path.$avatar['photo_t'].'" alt="">
@@ -497,17 +497,17 @@ function getPlaceTpl($array,$count,$prize=0) {
     				</a>
     			';
     		}
-    
-    
+
+
     		$html .='
     				</div>
     			</section>
     		</div>
     		';
-    
+
     	}
     }
-    
+
 	return $html;
 }
 
@@ -744,7 +744,7 @@ function getGalleryBlock($table) {
 					$html .= '
 						<div class="span3">
 							<a class="grouped_elements" rel="group'.$value['id'].'" href="'.$value['path'].'/'.$value2['photo'].'" title="">
-								<img data-original="'.$value['path'].'/'.$value2['photo_t'].'" class="img-polaroid lazy">
+								<img data-original="'.$value['path'].'/'.$value2['photo_t'].'" class="img-polaroid lazy" alt="">
 							</a>
 						</div>';
 				}

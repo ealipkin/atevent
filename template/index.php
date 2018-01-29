@@ -6,7 +6,7 @@ if ($landing == 1) {
 
 //Prevent cache new version of static
 $json = file_get_contents('static/busters.json');
-$json_data = json_decode($json,true);
+$json_data = json_decode($json, true);
 $mainJsFile = 'dest/js/main.js';
 $mainCssFile = 'dest/css/main.css';
 $jsLastVersion = $json_data[$mainJsFile];
@@ -30,9 +30,22 @@ ob_start();
             <meta name="viewport" content="width=device-width">
         <?php } ?>
 
-        <?=$metatags ?>
+        <?php if ($keywords) {
+            echo $keywords;
+        } else { ?>
+            <meta name="Keywords"
+                  content="свадебные, услуги, свадебный распорядитель, организация свадьбы, свадьба челябинск, свадебное агентство, свадебное агентство челябинск, услуги свадебного агентства, организация свадьбы, организация свадеб">
+        <?php } ?>
 
-        <link href="/static/dest/css/main.css?<?=$cssLastVersion?>" rel="stylesheet">
+        <?php if ($desctiption) {
+            echo $desctiption;
+        } else { ?>
+            <meta name="Description"
+                  content="Организация свадьбы от агенства «Академия Торжеств». Нет ничего невозможно - Ваши желания должны исполняться!">
+        <?php } ?>
+
+
+        <link href="/static/dest/css/main.css?<?= $cssLastVersion ?>" rel="stylesheet">
         <?
         //        require_once('bloks/style.php');
         ?>
@@ -50,7 +63,7 @@ ob_start();
             require_once($slider_path);
         }
         ?>
-        <div class="content <?=$class ?> ">
+        <div class="content <?= $class ?> ">
 
             <?php
             if (isset($file)) {
@@ -65,14 +78,14 @@ ob_start();
         ?>
 
     </div>
-    <?php 
-        //Счетчики для аналитики
-        require_once('bloks/counters.php')
+    <?php
+    //Счетчики для аналитики
+    require_once('bloks/counters.php')
     ?>
 
     <link rel="shortcut icon" href="/favicon.ico">
-    <script src="/static/dest/js/main.js?<?=$jsLastVersion?>"></script>
-    
+    <script src="/static/dest/js/main.js?<?= $jsLastVersion ?>"></script>
+
     <?php
     if (isset($scripts)) {
         echo $scripts;

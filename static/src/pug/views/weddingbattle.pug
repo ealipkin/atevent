@@ -11,79 +11,72 @@ block content
             img(src="./img/slider/at/4.jpg" alt="")
             img(src="./img/slider/at/5.jpg" alt="")
     .page-layout
-        h1.h3 Ведущие мероприятий
+        h1.h3 Тамада на свадьбу и юбилей
         hr
     //landing start
     .landing
-        .landing-promo.landing-promo_style_2
-            .landing-promo__content
-                .landing-promo__title.text.text_pink ЧТО ТАКОЕ СВАДЬБА?
-                div
-                    p #эмоции
-                    p #чувства
-                    p #улыбки
-            .landing-promo__bottom ВСЕ ДОЛЖНО БЫТЬ БЕЗУПРЕЧНО!
-        
-        h3.landing__title.tac.page-layout
-            span.text МЫ ПОМОЖЕМ ОРГАНИЗОВАТЬ 
-            span.text_pink СВАДЬБУ МЕЧТЫ 
-
-        .landing-list.landing-list_fix-icon-size.page-layout
-            .landing-list__item
-                .landing-list__icon
-                    img(src="/img/landings/list/2.png")
-                .landing-list__text ИНТЕЛЛИГЕНТНЫХ ВЕДУЩИХ ПРИЯТНОЙ ВНЕШНОСТИ С БОЛЬШИМ КОЛИЧЕСТВОМ ИНТЕРЕСНЫХ ИДЕЙ
-
-            .landing-list__item
-                .landing-list__icon
-                    img(src="/img/landings/list/05.png")
-                .landing-list__text НЕ МЕНЕЕ СИМПАТИЧНЫЙ ДИДЖЕЙ С КАЧЕСТВЕННОЙ АППАРАТУРОЙ И ОГРОМНОЙ МЫЗЫКАЛЬНОЙ БАЗОЙ
-
-            .landing-list__item
-                .landing-list__icon
-                    img(src="/img/landings/list/02.png")
-                .landing-list__text АРТИСТЫ РАЗЛИЧНЫХ ЖАНРОВ
+        .wedding-battle-promo
+            .page-layout
+                .wedding-battle-promo__text
+                    p ЧТО ТАКОЕ
+                    p.text.text_pink WEDDING BATTLE?
+                .wedding-battle-promo__text
+                    p УНИКАЛЬНЫЙ СЦЕНАРИЙ
+                    p
+                        span.text.text_pink ВАШЕЙ
+                        span СВАДЬБЫ
+                .wedding-battle-promo__text
+                    p АВТОРСКАЯ ПРОГРАММА
+                    p
+                        span.text.text_pink ОТ ДУЭТА ВЕДУЩИХ
+                        span АНДРЕЯ И ТАТЬЯНЫ
+                    a(href="/at").btn.btn_big УЗНАТЬ БОЛЬШЕ О ДУЭТЕ
 
 
-            .landing-list__item
-                .landing-list__icon
-                    img(src="/img/landings/list/06.png")
-                .landing-list__text ЖИВАЯ МУЗЫКА НА МЕРОПРИЯТИИ
+        iframe.landing__video(
+            width="100%",
+            src="https://www.youtube.com/embed/ffi3-eXqDc4?rel=0&amp;controls=0",
+            frameborder="0",
+            allowfullscreen
+        )
 
+        .wb-slide
+            .page-layout
+                .wb-slide__aside
+                    p объединение двух поколений
+                    p.text.text_pink современные конкурсы
+                    p тематические интерактивы
+                    p.text.text_pink антураж исконно русского стиля
+                    p подарки, сюрпризы и фокусы для гостей и виновников торжества
+                    p.text.text_pink отличное настроение
+                    p положительные эмоции
+                    p.text.text_pink незабываемый праздник!
+                p.wb-slide__bottom-text ВЕДУЩИЙ И ТАМАДА НА ОДНОЙ СВАДЬБЕ!
 
-            .landing-list__item
-                .landing-list__icon
-                    img(src="/img/landings/list/03.png")
-                .landing-list__text ИНДИВИДУАЛЬНЫЙ ПОДХОД И УДОВЛЕТВОРЕНИЕ ПОЖЕЛАНИЙ КЛИЕНТА ПО ПРОВЕДЕНИЮ ТОРЖЕСТВА
+        .wb-form
+            .page-layout
+                .wb-form__title.text.text_pink #WEDDING BATTLE
+                p ЭТО НЕ СТЕБ НАД ОДНИМ ИЗ СТИЛЕЙ
+                p ЭТО НЕ ИСПОЛЬЗОВАНИЕ ВСЕХ ИЗВЕСТНЫХ ТРАДИЦИЙ ПО ШАБЛОНУ
+                p ЭТО НЕ ПРИТОРННОЕ НАПОЛНЕНИЕ ПРОГРАММЫ СОВРЕМЕННЫМИ ФИШКАМИ
+                p.wb-form__order
+                    span WEDDING BATTLE - ЭТО
+                    span.text.text_pink #ТРАДИЦИИ В ИННОВАЦИЯХ
+                    button(type="button", data-link='popup-weddingbattle').popup-link.btn.btn_big ЗАКАЗАТЬ WEDDING BATTLE
 
-            .landing-list__item
-                .landing-list__icon
-                    img(src="/img/landings/list/07.png")
-                .landing-list__text СОВРЕМЕННЫЕ КОНКУРСЫ БЕЗ ПОШЛОСТИ, КОТОРЫЕ БУДУТ ИНТЕРЕСНЫ ЛЮДЯМ РАЗНОГО ПОКОЛЕНИЯ
-
-            .landing-list__item
-                .landing-list__icon
-                    img(src="/img/landings/list/04.png")
-                .landing-list__text СЮРПРИЗЫ ДЛЯ ГОСТЕЙ И ВИНОВНИКОВ ТОРЖЕСТВА
-
-            .landing-list__item
-                .landing-list__icon
-                    img(src="/img/landings/list/08.png")
-                .landing-list__text МНОЖЕСТВО ПОЗИТИВНЫХ ЭМОЦИЙ И ИСКРЕННИХ УЛЫБОК
-                    
         +landing-steps()
         +landing-videos()
         +landing-mosaic("/img/landings/collage-02.jpg")
         +price-promo()
-        
+
         +landing-about()
-        
+
         +landing-faq()
-        
+
         br
-        
+
         +review-block()
-        
+
         br
         .landing-send-us.page-layout
             p ОСТАЛИСЬ ВОПРОСЫ?
@@ -93,7 +86,7 @@ block content
             .landing-send-us__bottom
                 p ИЛИ НАПИШИТЕ НАМ <br> В ЛИЧНЫЕ СООБЩЕНИЯ
                 button(type="button", data-link="popup-mail").btn.btn_big.popup-link ОТПРАВИТЬ СООБЩЕНИЕ
-                
+
         br
         .page-layout
             h3
@@ -103,12 +96,26 @@ block content
                 p Свадьба – это особое мероприятие, которое должно остаться в памяти новобрачных и их окружения на всю жизнь. Соответствующей должна быть и организация такого праздника - ведущий на свадьбу потребуется в обязательном порядке. Ведь именно он сможет организовать гостей, исключить множество неприятностей, создать именно ту обстановку, которая окажется наиболее подходящей и приятной для всех. Среди задач, которые решает данный специалист, стоит отметить в первую очередь такие:
                 ul.ul
                     li Вовлечение в активное празднование всех присутствующих,
-                    li Проведение свадьбы по всем правилам и традициям, 
+                    li Проведение свадьбы по всем правилам и традициям,
                     li Исключение нештатных ситуаций.
-                p От 
-                    a(href='/weddingbattle.php', title='тамада челябинск') тамады
+                p От
+                    a(href='/weddingbattle', title='тамада челябинск') тамады
                     |  зависит многое, и потому свадебные ведущие в Челябинске, которые оказывают свои услуги по-настоящему профессионально, всегда оказываются востребованными, и их приглашают на все крупные торжества. Ведь профессионально организованная свадьба действительно оставит у всех приятные впечатления на много лет, запомнится, а еще она станет поводом для гордости брачующихся и их родственников, позволит выделиться перед окружающими. Грамотно и ярко проведенный праздник – это не просто приятная, это статусная вещь.
                 p Помощь – необходима!
                 p Давно прошли те времена, когда свадьбы проводились своими силами – сегодня свадебный ведущий приглашается на любую из них. Ведь на самих виновников торжества и их окружение и без того ложится масса хлопот по организации мероприятия, и к праздничному дню они порой остаются без сил, и сами хотели бы отдохнуть. И это вполне закономерно, ведь главное внимание и все условия для приятного отдыха, веселья должны быть в первую очередь у самих виновников, а если они будут включаться во все заботы, свадьба так и запомнится им одним из самых тяжелых дней в жизни.
                 p Услуги тамады позволяют исключить все эти заботы и переживания, и просто наслаждаться праздником, проработанным по индивидуальной программе, согласно вкусам и предпочтениям заказчиков. Профессионал в любом случае подойдет к вопросу креативно, а если в этом будет необходимость – подкорректирует сценарий по ходу событий. С опытным и грамотным тамадой все гости получат свою долю внимания и приятных впечатлений, а любые проблемные моменты и взаимные непонимания будут исключены. Праздник пройдет весело и без хлопот, став важнейшей вехой в начале счастливой семейной жизни любящей пары, и никто не почувствует себя обделенным или уставшим.
-                
+
+
+        .popup__overlay.popup-weddingbattle
+            .popup
+                a.popup__close(href='') X
+                h4 Заказать WEDDING BATTLE
+                p Оставьте ваши контактные данные и мы свяжемся с Вами в удобное время
+                form#form.popup-form(data-type='Форма заказа WEDDING BATTLE')
+                    .form-preloader
+                    input.f-name(type='text', placeholder='Введите ваше имя', name='Имя')
+                    input.f-phone(type='text', placeholder='Введите ваш телефон', name='Телефон')
+                    input.f-mail(type='text', placeholder='Адрес электронной почты', name='Почта')
+                    input.f-time(type='text', placeholder='Время удобное для звонка', name='Время для звонка')
+                    button.popup-callback-btn.button Отправить
+                    .form-message

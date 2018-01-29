@@ -1,54 +1,51 @@
 <main>
     <div class="page-layout">
-        <h1 class="h3">Ведущие на свадьбу Андрей и Татьяна</h1>
+        <h1 class="h3">Тамада на свадьбу и юбилей</h1>
         <hr>
     </div>
 
     <div class="landing">
-        <div class="landing-promo landing-promo_style_2">
-            <div class="landing-promo__content">
-                <div class="landing-promo__title text text_pink">ЧТО ТАКОЕ СВАДЬБА?</div>
-                <div>
-                    <p>#эмоции</p>
-                    <p>#чувства</p>
-                    <p>#улыбки</p>
+        <div class="wedding-battle-promo">
+            <div class="page-layout">
+                <div class="wedding-battle-promo__text">
+                    <p>ЧТО ТАКОЕ</p>
+                    <p class="text text_pink">WEDDING BATTLE?</p>
+                </div>
+                <div class="wedding-battle-promo__text">
+                    <p>УНИКАЛЬНЫЙ СЦЕНАРИЙ</p>
+                    <p><span class="text text_pink">ВАШЕЙ</span><span>СВАДЬБЫ</span></p>
+                </div>
+                <div class="wedding-battle-promo__text">
+                    <p>АВТОРСКАЯ ПРОГРАММА</p>
+                    <p><span class="text text_pink">ОТ ДУЭТА ВЕДУЩИХ</span><span>АНДРЕЯ И ТАТЬЯНЫ</span></p><a class="btn btn_big" href="/at">УЗНАТЬ БОЛЬШЕ О ДУЭТЕ</a>
                 </div>
             </div>
-            <div class="landing-promo__bottom">ВСЕ ДОЛЖНО БЫТЬ БЕЗУПРЕЧНО!</div>
         </div>
-        <h3 class="landing__title tac page-layout"><span class="text">МЫ ПОМОЖЕМ ОРГАНИЗОВАТЬ </span><span class="text_pink">СВАДЬБУ МЕЧТЫ </span></h3>
-        <div class="landing-list landing-list_fix-icon-size page-layout">
-            <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/2.png"></div>
-                <div class="landing-list__text">ИНТЕЛЛИГЕНТНЫХ ВЕДУЩИХ ПРИЯТНОЙ ВНЕШНОСТИ С БОЛЬШИМ КОЛИЧЕСТВОМ ИНТЕРЕСНЫХ ИДЕЙ</div>
+        <iframe class="landing__video" width="100%" src="https://www.youtube.com/embed/ffi3-eXqDc4?rel=0&amp;amp;controls=0" frameborder="0" allowfullscreen></iframe>
+        <div class="wb-slide">
+            <div class="page-layout">
+                <div class="wb-slide__aside">
+                    <p>объединение двух поколений</p>
+                    <p class="text text_pink">современные конкурсы</p>
+                    <p>тематические интерактивы</p>
+                    <p class="text text_pink">антураж исконно русского стиля</p>
+                    <p>подарки, сюрпризы и фокусы для гостей и виновников торжества</p>
+                    <p class="text text_pink">отличное настроение</p>
+                    <p>положительные эмоции</p>
+                    <p class="text text_pink">незабываемый праздник!</p>
+                </div>
+                <p class="wb-slide__bottom-text">ВЕДУЩИЙ И ТАМАДА НА ОДНОЙ СВАДЬБЕ!</p>
             </div>
-            <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/05.png"></div>
-                <div class="landing-list__text">НЕ МЕНЕЕ СИМПАТИЧНЫЙ ДИДЖЕЙ С КАЧЕСТВЕННОЙ АППАРАТУРОЙ И ОГРОМНОЙ МЫЗЫКАЛЬНОЙ БАЗОЙ</div>
-            </div>
-            <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/02.png"></div>
-                <div class="landing-list__text">АРТИСТЫ РАЗЛИЧНЫХ ЖАНРОВ</div>
-            </div>
-            <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/06.png"></div>
-                <div class="landing-list__text">ЖИВАЯ МУЗЫКА НА МЕРОПРИЯТИИ</div>
-            </div>
-            <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/03.png"></div>
-                <div class="landing-list__text">ИНДИВИДУАЛЬНЫЙ ПОДХОД И УДОВЛЕТВОРЕНИЕ ПОЖЕЛАНИЙ КЛИЕНТА ПО ПРОВЕДЕНИЮ ТОРЖЕСТВА</div>
-            </div>
-            <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/07.png"></div>
-                <div class="landing-list__text">СОВРЕМЕННЫЕ КОНКУРСЫ БЕЗ ПОШЛОСТИ, КОТОРЫЕ БУДУТ ИНТЕРЕСНЫ ЛЮДЯМ РАЗНОГО ПОКОЛЕНИЯ</div>
-            </div>
-            <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/04.png"></div>
-                <div class="landing-list__text">СЮРПРИЗЫ ДЛЯ ГОСТЕЙ И ВИНОВНИКОВ ТОРЖЕСТВА</div>
-            </div>
-            <div class="landing-list__item">
-                <div class="landing-list__icon"><img src="/img/landings/list/08.png"></div>
-                <div class="landing-list__text">МНОЖЕСТВО ПОЗИТИВНЫХ ЭМОЦИЙ И ИСКРЕННИХ УЛЫБОК</div>
+        </div>
+        <div class="wb-form">
+            <div class="page-layout">
+                <div class="wb-form__title text text_pink">#WEDDING BATTLE</div>
+                <p>ЭТО НЕ СТЕБ НАД ОДНИМ ИЗ СТИЛЕЙ</p>
+                <p>ЭТО НЕ ИСПОЛЬЗОВАНИЕ ВСЕХ ИЗВЕСТНЫХ ТРАДИЦИЙ ПО ШАБЛОНУ</p>
+                <p>ЭТО НЕ ПРИТОРННОЕ НАПОЛНЕНИЕ ПРОГРАММЫ СОВРЕМЕННЫМИ ФИШКАМИ</p>
+                <p class="wb-form__order"><span>WEDDING BATTLE - ЭТО</span><span class="text text_pink">#ТРАДИЦИИ В ИННОВАЦИЯХ</span>
+                    <button class="popup-link btn btn_big" type="button" data-link="popup-weddingbattle">ЗАКАЗАТЬ WEDDING BATTLE</button>
+                </p>
             </div>
         </div>
         <div class="landing-steps">
@@ -104,6 +101,7 @@
         <?
         require_once('single-blocks/price-promo.php');
         ?>
+
         <div class="landing-about"><img src="/img/leader/info.jpg">
             <div class="landing-about__info page-layout">
                 <div class="landing-about__col">
@@ -272,14 +270,30 @@
                 <p>Свадьба – это особое мероприятие, которое должно остаться в памяти новобрачных и их окружения на всю жизнь. Соответствующей должна быть и организация такого праздника - ведущий на свадьбу потребуется в обязательном порядке. Ведь именно он сможет организовать гостей, исключить множество неприятностей, создать именно ту обстановку, которая окажется наиболее подходящей и приятной для всех. Среди задач, которые решает данный специалист, стоит отметить в первую очередь такие:</p>
                 <ul class="ul">
                     <li>Вовлечение в активное празднование всех присутствующих,</li>
-                    <li>Проведение свадьбы по всем правилам и традициям, </li>
+                    <li>Проведение свадьбы по всем правилам и традициям,</li>
                     <li>Исключение нештатных ситуаций.</li>
                 </ul>
-                <p>От <a href="/weddingbattle" title="тамада челябинск">тамады</a> зависит многое, и потому свадебные ведущие в Челябинске, которые оказывают свои услуги по-настоящему профессионально, всегда оказываются востребованными, и их приглашают на все крупные торжества. Ведь профессионально организованная свадьба действительно оставит у всех приятные впечатления на много лет, запомнится, а еще она станет поводом для гордости брачующихся и их родственников, позволит выделиться перед окружающими. Грамотно и ярко проведенный праздник – это не просто приятная, это статусная вещь.</p>
+                <p>От<a href="/weddingbattle" title="тамада челябинск">тамады</a> зависит многое, и потому свадебные ведущие в Челябинске, которые оказывают свои услуги по-настоящему профессионально, всегда оказываются востребованными, и их приглашают на все крупные торжества. Ведь профессионально организованная свадьба действительно оставит у всех приятные впечатления на много лет, запомнится, а еще она станет поводом для гордости брачующихся и их родственников, позволит выделиться перед окружающими. Грамотно и ярко проведенный праздник – это не просто приятная, это статусная вещь.</p>
                 <p>Помощь – необходима!</p>
                 <p>Давно прошли те времена, когда свадьбы проводились своими силами – сегодня свадебный ведущий приглашается на любую из них. Ведь на самих виновников торжества и их окружение и без того ложится масса хлопот по организации мероприятия, и к праздничному дню они порой остаются без сил, и сами хотели бы отдохнуть. И это вполне закономерно, ведь главное внимание и все условия для приятного отдыха, веселья должны быть в первую очередь у самих виновников, а если они будут включаться во все заботы, свадьба так и запомнится им одним из самых тяжелых дней в жизни.</p>
                 <p>Услуги тамады позволяют исключить все эти заботы и переживания, и просто наслаждаться праздником, проработанным по индивидуальной программе, согласно вкусам и предпочтениям заказчиков. Профессионал в любом случае подойдет к вопросу креативно, а если в этом будет необходимость – подкорректирует сценарий по ходу событий. С опытным и грамотным тамадой все гости получат свою долю внимания и приятных впечатлений, а любые проблемные моменты и взаимные непонимания будут исключены. Праздник пройдет весело и без хлопот, став важнейшей вехой в начале счастливой семейной жизни любящей пары, и никто не почувствует себя обделенным или уставшим.</p>
             </div>
         </div>
+        <div class="popup__overlay popup-weddingbattle">
+            <div class="popup"><a class="popup__close" href="">X</a>
+                <h4>Заказать WEDDING BATTLE</h4>
+                <p>Оставьте Ваши контактные данные <br> и мы свяжемся с Вами в удобное время</p>
+                <form class="popup-form" id="form" data-type="Форма заказа WEDDING BATTLE">
+                    <div class="form-preloader"></div>
+                    <input class="f-name" type="text" placeholder="Введите ваше имя" name="Имя">
+                    <input class="f-phone" type="text" placeholder="Введите ваш телефон" name="Телефон">
+                    <input class="f-mail" type="text" placeholder="Адрес электронной почты" name="Почта">
+                    <input class="f-time" type="text" placeholder="Время удобное для звонка" name="Время для звонка">
+                    <button class="popup-callback-btn button">Отправить</button>
+                    <div class="form-message"></div>
+                </form>
+            </div>
+        </div>
     </div>
+
 </main>

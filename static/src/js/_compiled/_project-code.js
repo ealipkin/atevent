@@ -46,14 +46,28 @@ function showHide(divId) {
     prevEffect: 'fade',
     nextEffect: 'fade',
     nextClick: true,
-    helpers: { title: { type: 'inside' }, thumbs: { width: 100, height: 50 } }
+    helpers: {
+      title: {
+        type: 'inside'
+      },
+      thumbs: {
+        width: 100,
+        height: 50
+      }
+    }
   });
   $('a.photo_group').fancybox({
     maxHeight: '600',
     prevEffect: 'fade',
     nextEffect: 'fade',
     nextClick: true,
-    helpers: { title: { type: 'inside' }, thumbs: { width: 100, height: 50 } }
+    helpers: {
+      title: { type: 'inside' },
+      thumbs: {
+        width: 100,
+        height: 50
+      }
+    }
   });
   $('.various').fancybox({
     maxWidth: 800,
@@ -66,7 +80,12 @@ function showHide(divId) {
     openEffect: 'none',
     closeEffect: 'none',
     padding: 0,
-    helpers: { thumbs: { width: 90, height: 70 } }
+    helpers: {
+      thumbs: {
+        width: 90,
+        height: 70
+      }
+    }
   });
   $('#slider').nivoSlider({
     effect: 'random',

@@ -13,6 +13,13 @@
       margin-bottom: 20px;
     }
   }
+
+  &__video {
+    height: 50vw;
+    @include laptop() {
+      height: 525px;
+    }
+  }
 }
 
 .landing-promo {
@@ -26,7 +33,7 @@
     background-size: 65%;
     background-position: right bottom;
   }
-  
+
   &__top-text {
     text-transform: uppercase;
     font-size: 17px;
@@ -104,7 +111,7 @@
       }
     }
   }
-  
+
   &__title {
     line-height: 1.2em;
     vertical-align: top;
@@ -112,20 +119,20 @@
 
     margin-bottom: 15px;
     font-size: 22px;
-    
+
     @include tablet() {
       font-size: 40px;
       margin-bottom: 25px;
       text-align: left;
     }
   }
-  
+
   p {
     margin-bottom: 10px;
     line-height: 1.2em;
     font-size: 25px;
     margin-left: 10px;
-    
+
     &:first-child {
       margin-left: 0;
     }
@@ -137,7 +144,7 @@
       display: block;
     }
   }
-  
+
   &__content {
     text-align: center;
     margin-bottom: 10px;
@@ -148,7 +155,6 @@
     }
   }
 
-
   &_style_2 {
     background-image: url(../img/landings/at2.jpg);
     background-size: cover;
@@ -156,7 +162,7 @@
     background-position: right top;
     position: relative;
     z-index: 1;
-    
+
     &:after {
       content: '';
       position: absolute;
@@ -170,7 +176,6 @@
     }
   }
 
-
   &_style_2 & {
     &__bottom {
       color: white;
@@ -183,7 +188,7 @@
       padding-top: 15px;
       padding-bottom: 10px;
       text-align: center;
-      
+
       @include tablet() {
         text-align: left;
         font-size: 40px;
@@ -285,7 +290,6 @@
       font-size: 16px;
     }
   }
-
 
   &_fix-icon-size {
     margin-top: 30px;
@@ -420,7 +424,7 @@
     background: $pink;
     opacity: 0.5;
     z-index: -1;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
   }
 
   &__wrap {
@@ -457,7 +461,7 @@
 
   &__bottom {
     margin-top: 20px;
-    @include laptop(){
+    @include laptop() {
       margin-top: 80px;
     }
   }
@@ -734,7 +738,7 @@
     left: 0;
     top: 0;
     z-index: -1;
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
   }
 
   &__text-block {
@@ -801,15 +805,14 @@
   }
 }
 
-
 .landing-steps {
   background: white url(../img/landings/steps-bg.jpg) no-repeat;
   position: relative;
   background-position: right top;
   background-size: cover;
-  
+
   padding: $contentPadding;
-  
+
   @include tablet() {
     padding: 0;
     background-size: cover;
@@ -819,7 +822,7 @@
   @include laptop() {
     background-position: center;
   }
-  
+
   &:before {
     content: '';
     position: absolute;
@@ -829,19 +832,19 @@
     opacity: 0.9;
     height: 100%;
     background: white;
-    
+
     @include tablet() {
-      background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 37%);
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 37%);
       width: 65%;
     }
   }
-  
+
   &__inner {
     margin-left: auto;
     z-index: 1;
     position: relative;
     box-sizing: border-box;
-    
+
     @include tablet() {
       width: 55%;
       padding: 20px 30px 20px 0;
@@ -851,23 +854,23 @@
       width: 48%;
     }
   }
-  
+
   &__title {
     line-height: 1.2em;
-    
+
     font-size: 18px;
     margin-bottom: 15px;
-    
+
     @include tablet() {
       margin-bottom: 30px;
       font-size: 24px;
     }
   }
-  
+
   &__list {
     font-size: 16px;
     margin-bottom: 15px;
-    
+
     @include tablet() {
       font-size: 20px;
       margin-bottom: 30px;
